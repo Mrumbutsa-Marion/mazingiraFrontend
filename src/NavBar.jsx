@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './App.css'; // Updated import statement for index.css
+import './App.css';
 import logo from '../src/assets/logo.png'; 
-import callus from '../src/assets/callus.png'; //
+import callus from '../src/assets/callus.png'; 
 import Email from '../src/assets/Email.png';
-import greenlogin from '../src/assets/greenlogin.png'; //
-import whitelogin from '../src/assets/whitelogin.png';
 import greenwhite from '../src/assets/greenwhite.png';
 function Navbar() {
   return (
@@ -15,7 +13,11 @@ function Navbar() {
           <img src={logo} alt='Logo'/>
           <img src={callus} alt='callus'/>
           <img src={Email} alt='Email'/>
+
         </div>
+        <li className="navbar-item">
+            <Link to="/signup">Signup</Link>
+          </li>
       </div>
 
       <nav className='navigation'>
@@ -30,19 +32,21 @@ function Navbar() {
             <Link to="/about">About</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/shop">Shop</Link>
-          </li>
-          <li className="navbar-item">
-            <Link to="/cart">Cart</Link>
+            <Link to="/organization">Organization</Link>
           </li>
           <li className="navbar-item">
             <Link to="/donate">Donate</Link>
           </li>
           <li className="navbar-item">
+            <Link to="/contactus">Contact Us</Link>
+          </li>
+          <li className="navbar-item">
             <Link to="/signup">Signup</Link>
           </li>
         </ul>
+        <a href="">Donate</a>
       </nav>
+      
     </>
   );
 }

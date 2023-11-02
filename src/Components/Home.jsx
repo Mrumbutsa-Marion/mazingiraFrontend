@@ -3,7 +3,7 @@ import elephant from '../assets/elephant.png';
 import world from '../assets/world.png';
 import energy from '../assets/energy.png';
 import farms from '../assets/farms.png';
-
+import logo from '../assets/logo.png';
 import '../App.css'
 const Home = () => {
   useEffect(() => {
@@ -30,6 +30,7 @@ const Home = () => {
   }, []);
 
   return (
+    <>
     <div className='home'>
       {/* Your other code... */}
       {/* <div className="container1">
@@ -110,7 +111,36 @@ const Home = () => {
         um doloribus minus in numquam asperiores accusa
         ntium corporis quae hic officiis cum vel culpa 
         veritatis, odit ipsa vitae, ut incidunt aliquid eius?</p>
+          <div class="bottom-page">
+        <ul>
+            <li><a href="">Support</a></li>
+            <li>Online Payments</li>
+            <li>Delivery</li>
+            <li>Customer Service</li>
+            <li>Shipping</li>
+            <li>Donate</li>
+        </ul>
+        <ul>
+            <li><a href="">About Us</a></li>
+            <li>Who we are</li>
+            <li>Our missions</li>
+            <li>Partners</li>
+            <li>Teams</li>
+            <li>Vision</li>
+        </ul>
+        <ul>
+            <li><a href="">Policies</a></li>
+            <li>Privacy Policy</li>
+            <li>FAQS</li>
+            <li>Anti-fraud Disclaimer</li>
+            <li>Refund Policy</li>
+            <li>Payment</li>
+        </ul>
+       
     </div>
+
+    </div>
+    </>
   );
 };
 

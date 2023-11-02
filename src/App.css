@@ -173,3 +173,84 @@ body {
 
 
 }
+
+/* Footer */
+.bottom-page {
+  background-image: url('../assets/logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #020216;
+  height: 19rem;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  padding: 2rem;
+  /* left: -4rem; */
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.0em;
+  width: 100%;
+  
+}
+.bottom-page li a{
+  color: #ffbc1f;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.bottom-page li a:hover{
+  color: #c9c9c9;
+}
+.bottom-page ul li{
+  list-style: none;
+  font-size: 1.2em;
+  margin-left: 8rem;
+  color: #ffff;
+  margin-top: 1.5rem;
+}
+.social-icons img{
+  position: relative;
+}
+
+.contact-info{
+  
+  margin-bottom: 4.5rem;
+}
+
+
+.social-icons b a{
+  font-size: 0.8em;
+  color: #fff;
+}
+.social-icons b a img{
+  width: 2rem;
+  
+}
+
+.social-icons h5{
+  font-size: 1.2em;
+  color: #c9c9c9;
+}
+.contact-map{
+  padding: 0;
+  margin-top: -0rem;
+  
+}
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+}
+footer{
+  height: 2rem;
+  background-color: #ffbc1f;
+  margin-top: 0.1rem;
+  overflow: hidden;
+}
+footer p{
+text-align: center;
+color: #020216;
+font-size: 1.1em;
+padding: 6px;
+  
+}

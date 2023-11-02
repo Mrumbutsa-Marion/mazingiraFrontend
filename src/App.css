@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #8d9e6f;
+  background-color: #fff;
   color: #000;
 }
 /*navbar*/
@@ -160,7 +160,6 @@ body {
 .home {
   height: 300vh;
   margin-top: -1rem;
-  background-color: blue;
     
 }
 .container1, .container2, .container3 {
@@ -276,7 +275,7 @@ padding: 6px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #ebefe3;
+  background-color: #F1F1F1;
   text-align: center;
 }
 
@@ -337,6 +336,7 @@ padding: 6px;
   display: inline-block;
   margin: 10px;
 }
+
 
 /* Font size adjustments for smaller screens */
 @media (max-width: 768px) {

@@ -8,6 +8,7 @@ import greenwhite from '../src/assets/greenwhite.png';
 function Navbar() {
   return (
     <>
+    <div className="nav-container">
       <div className="navbar">
         <div className="image-container">
           <img src={logo} alt='Logo'/>
@@ -21,7 +22,7 @@ function Navbar() {
       </div>
 
       <nav className='navigation'>
-      <img src={greenwhite} alt='greenwhite'/>
+      {/* <img src={greenwhite} alt='greenwhite'/> */}
 
 
         <ul className="navbar-list">
@@ -38,15 +39,14 @@ function Navbar() {
             <Link to="/donate">Donate</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/contactus">ContactUs</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/signup">Signup</Link>
+            <Link to="/signup">SignUp</Link>
           </li>
         </ul>
-        <a href="">Donate</a>
       </nav>
-      
+      </div>
     </>
   );
 }

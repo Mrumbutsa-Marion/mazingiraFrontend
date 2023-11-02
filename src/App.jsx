@@ -7,12 +7,29 @@ import Donate from './Components/Donate';
 import Organization from './Components/Organization';
 import About from './Components/About';
 import ContactUs from './Components/ContactUs';
+import SignUp from './Components/SignUp';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
      <BrowserRouter>
+      <div>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Organization" element={<Organization />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/SignUp" element={<SignUp />} />
+
+        </Routes>
+      </div>
+      
+    </BrowserRouter>
+     {/* <BrowserRouter>
      <div>
       <NavBar/>
       <Routes>
@@ -24,7 +41,7 @@ function App() {
 
       </Routes>
      </div>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }

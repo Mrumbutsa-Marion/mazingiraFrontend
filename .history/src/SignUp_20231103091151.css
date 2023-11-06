@@ -1,0 +1,45 @@
+/* SignUp.css */
+.sign-up {
+    background-color: #040a00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Adjust the height to your preference */
+  }
+  
+  .sign-up .div {
+    background-color: #040a00;
+    height: auto; /* Let the height adjust to content */
+    overflow: hidden;
+    position: relative;
+    width: 1924px; /* You can adjust the width as needed */
+  }
+  
+  /* Update input styles to make them larger and clear */
+  .sign-up input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Update button styles to make it larger and clear */
+  .sign-up button {
+    background-color: #007bff; /* Change the button color */
+    color: #fff; /* Change the text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add styles for other elements as needed */
+  
+  /* Add media queries to make it responsive for different screen sizes */
+  
+  /* Adjust other styles as needed */
+  

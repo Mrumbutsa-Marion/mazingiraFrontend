@@ -1,0 +1,23 @@
+/* Signin.css */
+
+.sign-in {
+    background-image: url('/home/user/Downloads/3EumgsDA.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .div {
+    background-color: #030701;
+    height: 2912px;
+    overflow: hidden;
+    position: relative;
+    width: 1924px;
+  }
+  
+  /* Rest of the CSS styles remain the same */
+  

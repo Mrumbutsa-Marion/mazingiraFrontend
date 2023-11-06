@@ -1,0 +1,67 @@
+.signin-container {
+    background-color: #0e0f0eb0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-box {
+    background-color: #113501bb;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+}
+
+.signin-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+.signin-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forgot {
+    text-align: right;
+}
+
+.signin-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-box button[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+.google-signin {
+    background-color: #DB4437;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link span {
+    color: #4CAF50;
+    cursor: pointer;
+}
+

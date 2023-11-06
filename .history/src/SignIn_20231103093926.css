@@ -1,0 +1,29 @@
+/* SignIn.css */
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOWNxUVnY3pg&psig=AOvVaw0FpoyUxACe1QsWHfs971E5&ust=1699079700205000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCQ3aqbp4IDFQAAAAAdAAAAABAh");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sign-in-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sign-in-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for Sign-In form elements as needed */
+  

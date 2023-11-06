@@ -1,0 +1,15 @@
+import React from "react";
+
+export const SignIn = () => {
+  return (
+    <div className="sign-in bg-black flex flex-row justify-center w-full">
+      <div className="overlap-group-wrapper bg-black h-96 overflow-hidden w-4/5 md:w-3/5 lg:w-2/5">
+        <div className="overlap-group h-96 relative top-10 w-4/5">
+          <img className="element h-96 object-cover w-full" alt="Element" src="3eumgsda-1.png" />
+          <div className="text-wrapper text-white text-4xl md:text-5xl lg:text-6xl xl:text-7xl absolute left-20 md:left-32 lg:left-44 top-16">
+            Sign In
+          </div>
+          <div className="rectangle bg-gray-300 rounded-3xl h-72 w-4/5 md:w-3/5 lg:w-2/5 absolute left-28 md:left-32 lg:left-44 top-64 md:top-72 lg:top-80"></div>
+          <div className="div bg-gray-300 rounded-3xl h-72 w-4/5 md:w-3/5 lg:w-2/5 absolute left-32 md:left-36 lg:left-48 top-176 md:top-184 lg:top-192"></div>
+          <div className="frame bg-black h-16 w-28 absolute left-56 top-140"></div>
+          <div className="text-wrapper-2 text-white font-normal text-xl md:text-2xl lg:text-3xl xl:text-4xl absolute left-48 top-128 md:left-60 lg:left-72 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl:left-96 xl

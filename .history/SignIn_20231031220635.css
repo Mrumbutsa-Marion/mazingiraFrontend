@@ -1,0 +1,141 @@
+.sign-in {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-in .overlap-group-wrapper {
+    background-color: #000000;
+    height: 2513.26px;
+    overflow: hidden;
+    width: 1620.8px;
+  }
+  
+  .sign-in .overlap-group {
+    height: 2504px;
+    left: -21px;
+    position: relative;
+    top: 10px;
+    width: 1729px;
+  }
+  
+  .sign-in .element {
+    height: 2490px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    transform: rotate(0.48deg);
+    width: 1621px;
+  }
+  
+  .sign-in .text-wrapper {
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 200px;
+    font-weight: 400;
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 184px;
+    white-space: nowrap;
+    width: 705px;
+  }
+  
+  .sign-in .rectangle {
+    background-color: #d9d9d966;
+    border-radius: 55px;
+    height: 240px;
+    left: 167px;
+    position: absolute;
+    top: 628px;
+    width: 1335px;
+  }
+  
+  .sign-in .div {
+    background-color: #d9d9d966;
+    border-radius: 55px;
+    height: 240px;
+    left: 171px;
+    position: absolute;
+    top: 1140px;
+    width: 1335px;
+  }
+  
+  .sign-in .frame {
+    background-color: #000000;
+    height: 69px;
+    left: 328px;
+    position: absolute;
+    top: 559px;
+    width: 203px;
+  }
+  
+  .sign-in .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 100px;
+    font-weight: 400;
+    left: 234px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 537px;
+    white-space: nowrap;
+    width: 271px;
+  }
+  
+  .sign-in .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 100px;
+    font-weight: 400;
+    left: 227px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1064px;
+    white-space: nowrap;
+    width: 360px;
+  }
+  
+  .sign-in .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 80px;
+    font-weight: 400;
+    left: 1049px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1439px;
+    width: 680px;
+  }
+  
+  .sign-in .rectangle-2 {
+    background-color: #0d2500;
+    border-radius: 75px;
+    height: 220px;
+    left: 490px;
+    position: absolute;
+    top: 1735px;
+    width: 760px;
+  }
+  
+  .sign-in .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 111px;
+    font-weight: 400;
+    left: 735px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1797px;
+    white-space: nowrap;
+    width: 580px;
+  }
+  

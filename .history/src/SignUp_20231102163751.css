@@ -1,0 +1,53 @@
+/* styles/Signup.css */
+.sign-up {
+    background-color: #040a00;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements vertically */
+    justify-content: center;
+    align-items: center; /* Center content horizontally and vertically */
+    width: 100%;
+  }
+  
+  .sign-up .div {
+    background-color: #040a00;
+    height: 2912px;
+    overflow: hidden;
+    position: relative;
+    width: 1924px;
+  }
+  
+  .sign-up .overlap-group {
+    border-radius: 95px;
+    height: 2127px;
+    width: 1447px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .sign-up .rectangle {
+    background-color: #1c1c1c;
+    border-radius: 95px;
+    height: 2127px;
+    opacity: 0.79;
+    mix-blend-mode: luminosity;
+    width: 1447px;
+  }
+  
+  .sign-up .text-wrapper {
+    -webkit-text-stroke: 1px #000000;
+    color: #ffffff;
+    font-family: "Katibeh-Regular", Helvetica;
+    font-size: 170px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  /* Add styles for other elements similarly */
+  
+  /* You can adjust and fine-tune these styles as needed */
+  
+  

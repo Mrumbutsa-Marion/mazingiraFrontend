@@ -104,7 +104,7 @@ const Home = () => {
         um doloribus minus in numquam asperiores accusa
         ntium corporis quae hic officiis cum vel culpa 
         veritatis, odit ipsa vitae, ut incidunt aliquid eius?</p>
-          <div class="bottom-page">
+        <div class="bottom-page">
         <ul>
             <li><a href=""> <img src={logo} alt='Logo'/> </a></li>
             <li>A small river named Duden flows by </li>

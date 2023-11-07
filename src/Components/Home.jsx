@@ -32,14 +32,7 @@ const Home = () => {
   return (
     <>
     <div className='home'>
-      {/* Your other code... */}
-      {/* <div className="container1">
-      <div className="mySlides fade">
-        <div className="numbertext">1 / 4</div>
-        <img src="https://i.pinimg.com/564x/a9/9e/8f/a99e8f7e149281a0d09507a6cdce2b5d.jpg" style={{ width: "100%" }} />
-        <div className="text">Your text here</div>
-        <button>Click Me</button>
-        <img src="" /> */}
+    
       <div className="container1">
         <div className="slideshow-container">
           <div className="mySlides fade">
@@ -113,21 +106,22 @@ const Home = () => {
         veritatis, odit ipsa vitae, ut incidunt aliquid eius?</p>
           <div class="bottom-page">
         <ul>
-            <li><a href="">Support</a></li>
-            <li>Online Payments</li>
-            <li>Delivery</li>
-            <li>Customer Service</li>
-            <li>Shipping</li>
-            <li>Donate</li>
+            <li><a href=""> <img src={logo} alt='Logo'/> </a></li>
+            <li>A small river named Duden flows by </li>
+            <li> place and supplies it with the</li>
+            <li>ecessary regelialia.</li>
+            
         </ul>
         <ul>
-            <li><a href="">About Us</a></li>
-            <li>Who we are</li>
+            <li><a href="">Services</a></li>
+            <li>Recycling</li>
             <li>Our missions</li>
-            <li>Partners</li>
-            <li>Teams</li>
-            <li>Vision</li>
+            <li>Water Refine</li>
+            <li>Ecosystem</li>
+            <li>Solar Enerfy</li>
         </ul>
+
+
         <ul>
             <li><a href="">Policies</a></li>
             <li>Privacy Policy</li>
@@ -136,8 +130,29 @@ const Home = () => {
             <li>Refund Policy</li>
             <li>Payment</li>
         </ul>
+        <ul>
+            <li><a href="">Have a Question?</a></li>
+            <li>Privacy Policy</li>
+            <li>FAQS</li>
+            <li>Anti-fraud Disclaimer</li>
+            <li>Refund Policy</li>
+            <li>Payment</li>
+        </ul>
+        <iframe/>
+        
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8413321289895!2d36.8354996759388!3d-1.2679863987199562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16c483160879%3A0x47be8b9b082e0ab3!2sKCDF%20House!5e0!3m2!1sen!2ske!4v1699301605480!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/> */}
        
     </div>
+
+         <div class="footer">
+                <div class="logo">
+                    <div class="copyright">
+                        <p> Copyright © 2017 All Rights Reserved by Scanfcode_ 2023_Mazingirae_</p>
+                    </div>
+                   
+                </div>
+
+            </div>
 
     </div>
     </>

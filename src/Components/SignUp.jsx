@@ -1,6 +1,7 @@
 import React from "react";
+import '../App.css'
 
-export const AboutUs = () => {
+export const SignUp = () => {
   return (
     <div className="bg-[#f1f1f1] flex flex-row justify-center w-full">
       <div className="bg-[#f1f1f1] overflow-x-hidden w-[1924px] h-[2912px]">
@@ -141,4 +142,4 @@ export const AboutUs = () => {
     </div>
   );
 };
-export default AboutUs;
+export default SignUp;

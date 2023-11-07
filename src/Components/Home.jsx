@@ -97,33 +97,42 @@ plants = sustainable ecosystem 🌱🐾
 </br><br>
 </br>
 
-<div style={{ display: 'flex', alignItems: 'center' }}>
+<div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
+    Partners
+  </div>
   <img
     className="rectangle-54"
     alt="Rectangle 54"
-    src="src/assets/Rectangle 54.png"
+    src="src/assets/WED_-_Main.png"
     style={{
       width: '319.297px',
       height: '189.317px',
       flexShrink: 0,
-      marginRight: '60px' // Adjust the spacing between the images as needed
+      marginRight: '10px' // Adjust the spacing between the images as needed
     }}
   />
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
+    Permits
+  </div>
   <img
     className="rectangle-51"
     alt="Rectangle 51"
-    src="src/assets/Rectangle 51 (1).png"
+    src="src/assets/mqdefault.jpg"
     style={{
       width: '319.297px',
       height: '189.317px',
       flexShrink: 0,
-      marginRight: '60px' // Adjust the spacing between the images as needed
+      marginRight: '10px' // Adjust the spacing between the images as needed
     }}
   />
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center' }}>
+    Recycle
+  </div>
   <img
     className="rectangle-60"
     alt="Rectangle 60"
-    src="src/assets/Rectangle 60.png"
+    src="src/assets/zero-carbon-emmision1.jpg"
     style={{
       width: '319.297px',
       height: '189.317px',
@@ -131,6 +140,8 @@ plants = sustainable ecosystem 🌱🐾
     }}
   />
 </div>
+
+
 
 
 

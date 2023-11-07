@@ -7,8 +7,8 @@ import Donate from './Components/Donate';
 import Organization from './Components/Organization';
 import About from './Components/About';
 import ContactUs from './Components/ContactUs';
-import Signin from './SignIn'; // Import the Signin component
-import Signup from './SignUp'; // Import the Signup component
+import Signin from './SignIn';
+import Signup from './SignUp'; 
 
 function App() {
   return (

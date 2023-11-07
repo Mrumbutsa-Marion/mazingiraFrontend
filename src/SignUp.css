@@ -1,4 +1,4 @@
-/* SignUp.css */
+
 .centered-container {
     display: flex;
     justify-content: center;
@@ -42,27 +42,27 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 10px; /* Add margin to separate the buttons */
+    margin-top: 10px; 
   }
   
   .registration-form button:hover {
     background-color: #1fff06d8;
   }
   
-  /* Add graphics or icons as background images for the form elements */
+  
   .registration-form .email-icon {
     background-image: url("email-icon.png");
-    background-size: 20px; /* Adjust size as needed */
+    background-size: 20px; 
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 30px; /* Add space for the icon */
+    padding-left: 30px; 
   }
   .registration-form .password-icon {
     background-image: url("password-icon.png");
-    background-size: 20px; /* Adjust size as needed */
+    background-size: 20px;
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 30px; /* Add space for the icon */
+    padding-left: 30px; 
   }
-  /* Other styles as needed */
+  
   

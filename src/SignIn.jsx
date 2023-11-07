@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './SignIn.css';
 
 const SignIn = () => {
@@ -8,7 +8,7 @@ const SignIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic to handle the submission or validation can be added here
+
     console.log('Email:', email, 'Password:', password);
   };
 
@@ -29,7 +29,7 @@ const SignIn = () => {
           <p>or</p>
           <button className="google-signin">Sign in with Google</button>
 
-          {/* Add a Link to navigate back to Sign Up */}
+         
           <p className="signup-link">
             Already have an account? <Link to="/signup">Sign Up</Link>
           </p>

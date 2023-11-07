@@ -154,25 +154,28 @@
 .about-us {
   background-color: #f1f1f1;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-.div {
+.about-us .div {
   background-color: #f1f1f1;
   height: 2912px;
+  overflow-x: hidden;
   position: relative;
   width: 1924px;
 }
 
-.overlap {
+.about-us .overlap {
   height: 501px;
+  left: 0;
   position: absolute;
   top: 2416px;
   width: 1931px;
 }
 
-.rectangle {
+.about-us .rectangle {
   background-color: #53535366;
   border-radius: 1px;
   height: 1px;
@@ -182,15 +185,16 @@
   width: 857px;
 }
 
-.hands-with-plants {
+.about-us .hands-with-plants {
   height: 496px;
+  left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
   width: 1929px;
 }
 
-.instagram {
+.about-us .instagram {
   height: 39px;
   left: 289px;
   object-fit: cover;
@@ -199,7 +203,7 @@
   width: 50px;
 }
 
-.twitter-sign {
+.about-us .twitter-sign {
   height: 39px;
   left: 371px;
   object-fit: cover;
@@ -208,7 +212,7 @@
   width: 51px;
 }
 
-.facebook {
+.about-us .facebook {
   height: 41px;
   left: 208px;
   object-fit: cover;
@@ -217,7 +221,7 @@
   width: 54px;
 }
 
-.group {
+.about-us .group {
   height: 73px;
   left: 208px;
   position: absolute;
@@ -225,7 +229,7 @@
   width: 260px;
 }
 
-.MAZINGIRA {
+.about-us .MAZINGIRA {
   color: transparent;
   font-family: "Kyiv*Type Titling-Medium", Helvetica;
   font-size: 34px;
@@ -234,6 +238,178 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.about-us .text-wrapper {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.about-us .span {
+  color: #73b925;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+}
+
+.about-us .nature {
+  color: #ffffff;
+  font-family: "Abel-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  width: 256px;
+}
+
+.about-us .have-a-question-park {
+  color: #ffffff;
+  font-family: "Kyiv*Type Titling-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 1063px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 63px;
+  width: 334px;
+}
+
+.about-us .text-wrapper-2 {
+  font-weight: 700;
+}
+
+.about-us .text-wrapper-3 {
+  font-family: "Kyiv*Type Titling-Regular", Helvetica;
+}
+
+.about-us .overlap-group-wrapper {
+  height: 66px;
+  left: 1px;
+  position: absolute;
+  top: 435px;
+  width: 1930px;
+}
+
+.about-us .overlap-group {
+  background-image: url(./rectangle-35.svg);
+  background-size: 100% 100%;
+  height: 66px;
+  position: relative;
+  width: 1928px;
+}
+
+.about-us .p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 761px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 21px;
+  white-space: nowrap;
+  width: 436px;
+}
+
+.about-us .img {
+  height: 243px;
+  left: 1395px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 347px;
+}
+
+.about-us .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Kyiv*Type Titling-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 217px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 355px;
+}
+
+.about-us .services-recycling {
+  color: #ffffff;
+  font-family: "Kyiv*Type Titling-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  width: 184px;
+}
+
+.about-us .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Kyiv*Type Titling-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.about-us .save-animals-plant {
+  color: #ffffff;
+  font-family: "Kyiv*Type Titling-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 812px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 68px;
+  width: 241px;
+}
+
+.about-us .overlap-2 {
+  border-radius: 1px;
+  height: 131px;
+  left: 0;
+  position: absolute;
+  top: 2285px;
+  width: 1929px;
+}
+
+.about-us .hands-with-plants-2 {
+  height: 131px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1924px;
+}
+
+.about-us .hands-with-plants-3 {
+  background-color: #73b925ed;
+  border-radius: 1px;
+  height: 131px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1929px;
+}
+
+.about-us .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400
 }
 
 

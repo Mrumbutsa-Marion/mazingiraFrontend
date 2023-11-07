@@ -1,10 +1,6 @@
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-  .all-\[unset\] {
-    all: unset;
-  }
+*{
+  margin: 0;
+  box-sizing: border-box;
 }
 .navbar {
   width: 100%;
@@ -79,18 +75,7 @@
 
 
 
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-.maku{
-  height: 2px;
-  padding-top: -20px;
-} 
-.maku h1{
-  margin-bottom: -6rem;
-}
+
 
 
 /* Landing Page */

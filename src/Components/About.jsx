@@ -1,144 +1,151 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import ourabout from '../assets/ourabout.png';
+import pepleuni from '../assets/pepleuni.png';
 
-export const AboutUs = () => {
-  return (
-    <div className="bg-[#f1f1f1] flex flex-row justify-center w-full">
-      <div className="bg-[#f1f1f1] overflow-x-hidden w-[1924px] h-[2912px]">
-        <div className="relative w-[1945px] h-[2912px] left-[-2px]">
-          <img
-            className="absolute w-[1930px] h-[347px] top-0 left-0 object-cover"
-            alt="About us banner orig"
-            src="about-us-banner-orig-1.png"
-          />
-          <img
-            className="absolute w-[1927px] h-[2063px] top-[324px] left-[3px] object-cover"
-            alt="Element"
-            src="960x0-2.png"
-          />
-          <div className="absolute w-[650px] h-[448px] top-[487px] left-[1236px] bg-[#d9d9d966] rounded-[44px]" />
-          <div className="absolute w-[788px] h-[808px] top-[487px] left-[3px] bg-[#d9d9d966] rounded-[44px]" />
-          <p className="absolute w-[722px] top-[525px] left-[62px] [font-family:'Itim-Regular',Helvetica] font-normal text-black text-[50px] tracking-[0] leading-[normal]">
-            🌍🔥 Environmental Degradation: The deterioration of our planet and its delicate ecosystems poses a grave
-            threat to all life forms. 😔⚠️ Finding effective solutions to combat this crisis is essential, but resources
-            are limited. That&#39;s why we need your help! Join us at Mazingira as we tackle this urgent challenge
-            head-on. Together, we can make a positive impact! 💪🌱
-          </p>
-          <div className="absolute w-[857px] h-[560px] top-[1581px] left-[3px] bg-[#d9d9d966] rounded-[44px]" />
-          <p className="absolute w-[841px] top-[1593px] left-[37px] [font-family:'Itim-Regular',Helvetica] font-normal text-black text-[50px] tracking-[0] leading-[normal]">
-            Introducing our automated donation platform! 💫🌟 Simplify your giving and make a lasting impact. With our
-            innovative product, you can set up regular contributions, like monthly donations of any amount. Join us in
-            working towards our goals effectively by effortlessly supporting our cause. Start making a difference today!
-            🌍🤝💚
-          </p>
-          <img
-            className="absolute w-[781px] h-[1006px] top-[1234px] left-[1149px]"
-            alt="Rectangle"
-            src="rectangle-111.svg"
-          />
-          <div className="absolute w-[1943px] h-[627px] top-[2285px] left-[2px]">
-            <div className="absolute w-[1929px] h-[496px] top-[131px] left-0">
-              <div className="absolute w-[857px] h-px top-[277px] left-[114px] bg-[#53535366] rounded-[1px]" />
-              <img
-                className="w-[1929px] h-[496px] object-cover absolute top-0 left-0"
-                alt="Hands with plants"
-                src="hands-with-plants-1280-1.png"
-              />
-              <img
-                className="absolute w-[50px] h-[39px] top-[196px] left-[289px] object-cover"
-                alt="Instagram"
-                src="instagram-1.png"
-              />
-              <img
-                className="absolute w-[51px] h-[39px] top-[195px] left-[371px] object-cover"
-                alt="Twitter sign"
-                src="twitter-sign-1.png"
-              />
-              <img
-                className="absolute w-[54px] h-[41px] top-[195px] left-[208px] object-cover"
-                alt="Facebook"
-                src="facebook-1.png"
-              />
-              <div className="absolute w-[260px] h-[73px] top-[18px] left-[208px]">
-                <p className="absolute w-[256px] top-0 left-0 [font-family:'Kyiv*Type_Titling-Medium',Helvetica] font-normal text-transparent text-[34px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
-                  <span className="font-medium text-white">MAZI</span>
-                  <span className="[font-family:'Inter-SemiBold',Helvetica] font-semibold text-[#73b925]">NGIRA</span>
-                </p>
-                <div className="absolute w-[256px] top-[37px] left-0 [font-family:'Abel-Regular',Helvetica] font-normal text-white text-[18px] text-center tracking-[0] leading-[normal]">
-                  Nature &amp; sustainability
-                </div>
-              </div>
-              <p className="absolute w-[334px] top-[64px] left-[1063px] [font-family:'Kyiv*Type_Titling-Bold',Helvetica] font-normal text-white text-[18px] tracking-[0] leading-[normal]">
-                <span className="font-bold">
-                  Have a Question?
-                  <br />
-                </span>
-                <span className="[font-family:'Kyiv*Type_Titling-Regular',Helvetica]">
-                  Park-Road, Kilimani
-                  <br />
-                  +254 721 526852
-                  <br />
-                  mazingira.sustain@gmai.org
-                </span>
-              </p>
-              <img
-                className="absolute w-[1928px] h-[66px] top-[289px] left-px"
-                alt="Rectangle"
-                src="rectangle-35.svg"
-              />
-              <p className="absolute w-[436px] top-[310px] left-[762px] [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[20px] text-right tracking-[0] leading-[normal] whitespace-nowrap">
-                Copyright ©2023 All rights reserved |
-              </p>
-              <img
-                className="absolute w-[347px] h-[243px] top-[18px] left-[1395px] object-cover"
-                alt="Rectangle"
-                src="rectangle-62.png"
-              />
-              <p className="absolute w-[355px] top-[90px] left-[217px] [font-family:'Kyiv*Type_Titling-Medium',Helvetica] font-medium text-white text-[18px] tracking-[0] leading-[normal]">
-                A small river named Duden flows by their place and supplies it with the necessary regelialia.
-              </p>
-              <p className="absolute w-[184px] top-[49px] left-[592px] [font-family:'Kyiv*Type_Titling-Medium',Helvetica] font-medium text-white text-[18px] tracking-[0] leading-[normal]">
-                <span className="[font-family:'Kyiv*Type_Titling-Medium',Helvetica] font-medium text-white text-[18px] tracking-[0]">
-                  Services
-                  <br />
-                  Recycling
-                  <br />
-                  Water Refine
-                  <br />
-                  Ecosystem
-                  <br />
-                  Solar Enerfy
-                </span>
-              </p>
-              <p className="absolute w-[241px] top-[69px] left-[812px] [font-family:'Kyiv*Type_Titling-Medium',Helvetica] font-medium text-white text-[18px] tracking-[0] leading-[normal]">
-                Save Animals
-                <br />
-                Plant Ecology
-                <br />
-                Dynamic Ecology
-                <br />
-                Tree Planting
-              </p>
-            </div>
-            <div className="absolute w-[1929px] h-[131px] top-0 left-0 rounded-[1px]">
-              <img
-                className="w-[1924px] h-[131px] object-cover absolute top-0 left-0"
-                alt="Hands with plants"
-                src="hands-with-plants-1280-2.png"
-              />
-              <div className="w-[1929px] h-[131px] bg-[#73b925ed] rounded-[1px] absolute top-0 left-0" />
-              <div className="absolute w-[624px] top-[48px] left-[191px] [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[40px] text-right tracking-[0] leading-[normal]">
-                Subscribe For Newsletter
-              </div>
-              <div className="absolute w-[521px] h-[52px] top-[40px] left-[990px] bg-[#d9d9d9] rounded-[1px]" />
-              <div className="absolute w-[231px] h-[52px] top-[40px] left-[1511px] bg-white rounded-[1px]" />
-              <div className="absolute w-[146px] top-[57px] left-[1546px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-black text-[13px] text-center tracking-[0] leading-[normal]">
-                SUBSCRIBE NOW!
-              </div>
-            </div>
-          </div>
-        </div>
+import '../App.css'
+const About = () => {
+
+
+return (
+    <>
+    <div class="header-two">
+    <img src={pepleuni} alt='contactmmm' className='aboutclass' style={{ width: "100%" ,  height: "auto" }}/>
+
+
+</div>
+
+<div class="about-container">
+
+   <div class="about">
+
+      <div class="left">
+         <h1>Who We Are</h1>
+         <hr/>
+         <p>"🌿 Welcome to Mazingira – Where Passion Meets Purpose in the Heart of Environmental Conservation! 🌍
+
+At Mazingira, we are more than just a group; we are a vibrant community of dedicated individuals united by a common goal – safeguarding our planet for future generations. 
+
+With unwavering commitment and boundless enthusiasm, we lead the charge in environmental conservation and sustainable practices.
+
+Imagine a world where lush forests thrive 🌳, oceans teem with life 🐠, and every living being coexists harmoniously 🌏.
+
+ This vision fuels our every endeavor, propelling us to take meaningful actions that resonate across the globe.
+
+  Our mission is clear: to protect, preserve, and rejuvenate the environment, one initiative at a time.
+
+What sets us apart is not just our passion for the environment, but our innovative approach to conservation. 
+
+Through groundbreaking research 📚, community engagement 👥, and hands-on projects 🌱, we tackle environmental challenges head-on.
+
+ From reforestation efforts and wildlife preservation 🦁 to advocating for eco-friendly policies 🌿, we are the driving force behind positive change.
+
+Join us on this exhilarating journey toward a greener, cleaner planet. Together, we can turn the tide and create a world where nature thrives and humanity lives in harmony with the Earth.
+
+ Explore, learn, and collaborate with us at Mazingira – because when it comes to environmental conservation, every action counts.
+ 
+ Together, let's make a difference that will be felt for generations to come. 🌎✨"</p>
+
+         
+
       </div>
-    </div>
+      <div class="right">
+         <img src="https://res-console.cloudinary.com/dqnofyo7r/thumbnails/v1/image/upload/v1699305818/c2FtcGxlcy9sYW5kc2NhcGVzL25hdHVyZS1tb3VudGFpbnM=/as_is"/>
+      </div>
+      <div class="clear"></div>
+   </div>
+
+<div class="mission">
+
+  <div class="left">
+     <img src="https://res-console.cloudinary.com/dqnofyo7r/thumbnails/v1/image/upload/v1699305814/c2FtcGxlcy9sYW5kc2NhcGVzL2JlYWNoLWJvYXQ=/as_is"/>
+  </div>
+  <div class="right">
+    <h1>Mission Statement</h1>
+    <hr/>
+    <p>🌱 At Mazingira, our mission is to champion the cause of environmental conservation with unwavering dedication, innovative solutions, and inclusive community engagement. We strive to protect and preserve the Earth's ecosystems, biodiversity, and natural resources, fostering a sustainable future for all.
+
+🌍 Through education, advocacy, and hands-on initiatives, we empower individuals and communities to embrace eco-friendly practices, reduce their ecological footprint, and actively participate in the preservation of our planet. We are committed to researching, implementing, and promoting sustainable solutions that address pressing environmental issues, ensuring the well-being of current and future generations.
+
+🌿 With a deep sense of responsibility, we work tirelessly to raise awareness about environmental challenges and inspire collective action. By fostering a sense of environmental stewardship, we aim to create a world where the delicate balance between humanity and nature is respected, allowing both to thrive harmoniously.
+
+🌏 Join us in our mission to safeguard the environment, promote sustainability, and create a lasting legacy of conservation. Together, we can make a meaningful impact and pave the way for a greener, healthier planet for all. 🌎✨".</p>
+
+    
+
+  </div>
+<div class="clear"></div>
+
+</div>
+<div className="team" style={{ 
+  backgroundImage: 'url("src/assets/hands-with plants_1280 1.png")', 
+  backgroundSize: 'cover', 
+  backgroundRepeat: 'no-repeat', 
+  backgroundPosition: 'center', 
+  width: '100%', 
+  paddingTop: '75%', // Maintain the aspect ratio (height:width = 3:4) by adjusting padding
+  position: 'relative', // Add this style to enable absolute positioning of content inside the div
+  color: 'white' // Set text color to white
+}}>
+  <h1> Our Team
+    <hr />
+  </h1>
+  <h2>
+    Cedrick:
+    <br />
+    Email: cedrick@mazingira.com
+    <br />
+    Phone Number: 07023456788
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Nashon:
+    <br />
+    Email: nashon@mazingira.com
+    <br />
+    Phone Number: 012345678
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Miriam:
+    <br />
+    Email: miriam@mazingira.com
+    <br />
+    Phone Number: 07456890754
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Marion:
+    <br />
+    Email: marion@mazingira.com
+    <br />
+    Phone Number: 07689009456
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Victor:
+    <br />
+    Email: victor@mazingira.com
+    <br />
+    Phone Number: 0768945683
+    <br />
+    Location: ngong, Nairobi
+  </h2>
+</div>
+
+     
+
+      
+
+
+   </div>
+
+    
+    </>
   );
 };
-export default AboutUs;
+
+export default About;

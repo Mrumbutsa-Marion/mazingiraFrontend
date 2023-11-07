@@ -61,7 +61,17 @@ const Home = () => {
           <span className="dot"></span>
         </div>
       </div>
-      <p>" <h1>Welcome to Mazingira: Empowering Environmental Champions! 🌿</h1>
+      <p>" <h1 style={{
+  fontFamily: 'Arial, sans-serif',
+  fontSize: '36px',
+  fontWeight: 'bold',
+  color: '#4CAF50',
+  textAlign: 'center',
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'
+}}>
+  Welcome to <span style={{ fontStyle: 'italic' }}>Mazingira</span>: Empowering Environmental Champions! 🌿
+</h1>
+
 
       <br></br>
 

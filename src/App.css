@@ -156,7 +156,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 70%;
 }
 
 .about-us .div {
@@ -185,6 +185,15 @@
   width: 857px;
 }
 
+.about-us .hands-container {
+  position: relative;
+  display: inline-block;
+}
+
+.about-us .hands-container img {
+  position: absolute;
+}
+
 .about-us .hands-with-plants {
   height: 496px;
   left: 0;
@@ -194,32 +203,29 @@
   width: 1929px;
 }
 
-.about-us .instagram {
-  height: 39px;
-  left: 289px;
-  object-fit: cover;
-  position: absolute;
-  top: 196px;
+.about-us .instagram,
+.about-us .twitter-sign,
+.about-us .facebook {
   width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+}
+
+.about-us .instagram {
+  left: 50px;
 }
 
 .about-us .twitter-sign {
-  height: 39px;
-  left: 371px;
-  object-fit: cover;
-  position: absolute;
-  top: 195px;
-  width: 51px;
+  left: 100px;
 }
 
 .about-us .facebook {
-  height: 41px;
-  left: 208px;
-  object-fit: cover;
-  position: absolute;
-  top: 195px;
-  width: 54px;
+  left: 150px;
 }
+
+
+
 
 .about-us .group {
   height: 73px;

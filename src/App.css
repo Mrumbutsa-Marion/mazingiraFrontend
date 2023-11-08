@@ -58,7 +58,7 @@ body {
   overflow: hidden;
   background-color: #73B925;
   display: flex;
-  height: 7vh;
+  height: 10vh;
   justify-content: space-around;
   top: 0px; 
 }
@@ -269,7 +269,7 @@ nav a:nth-child(3):hover ~ #indicator {
 /*Home Page*/
 
 .home {
-  height: 300vh;
+  height: 100vh;
   margin-top: -1rem;
     
 }
@@ -473,178 +473,6 @@ padding: 6px;
   }
 }
 
-.header-two {
-  width:100%;
-  height:100vh;
-  /* width: 100%;
-  background-color:rgb(30, 173, 255);
-  background-image:url('https://res-console.cloudinary.com/dqnofyo7r/thumbnails/v1/image/upload/v1699305811/c2FtcGxlcy9iaWtl/as_is');
-  background-size:cover;
-  background-position:bottom; */
-}
-img .aboutclass{
-  height: 100vh;
-}
-.about-container{
-  width:100%;
-  height: auto;
-
-  background-color: #F1F1F1;
-  
-}
-.about-container h1{
-  font-size:50px
-}
-.about{
-  padding:5% 0;
-  width:100%;
-  height:auto;
-  margin-top: -330px;
-
-  background-color: #fff;
-}
-.about .left{
-  padding:2% 0;
-  width:50%;
-  display:inline-block;
-}
-.about .right{
-  width:50%;
-  display:inline-block;
-}
-.about .right img{
-  width:100%
-}
-.about .left h1{
-  text-align:center;
-  color:#1C1C1C;
-  margin:0 0 10px 0;
-}
-.about .left hr{
-  width:20%;
-  border-top:2px solid #000;
-  border-bottom:none;
-}
-.about .left p{
-  font-size:1rem;
-  margin:40px auto;
-  width:80%
-}
-
-.mission{
-  padding:5% 0;
-  width:100%;
-  height:auto;
-  background-color:#fff;
-}
-.mission .right{
-  padding:2% 0;
-  width:50%;
-
-  display:inline-block;
-}
-.mission .left{
-  width:50%;
-  display:inline-block;
-}
-.mission .left img{
-  width:100%;
-}
-.mission .right h1{
-  text-align:center;
-  color:#1C1C1C;
-  margin:0 0 20px 0;
-}
-.mission .right hr{
-  width:35%;
-  border-top:2px solid #000;
-  border-bottom:none;
-}
-.mission .right p{
-  font-size:1rem;
-  margin:40px auto;
-  width:80%
-}
-
-
-.team{
-  width:90%;
-  margin:auto;
-  padding:5% 5%;
-  overflow: hidden;
-}
-.team h1{
-  text-align:center;
-  color:#1c1c1c;
-  
-}
-.team h1 hr{
-  width:15%;
-  border-top:2px solid #000;
-  background-color:transperant;
-  border-bottom:none;
-  margin-bottom:50px;
-}
-.team .card{
-  padding-bottom:20px;
-  padding-top:20px;
-  position:relative;
-  min-width:20%;
-  height:500px !important;
-  height:auto;
-  background-color:#fff;
-  display:inline-block;
-  margin:40px 6.5%;
-  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
-  text-align:center;
-}
-.card .circle-container{
-  position:relative;
-  background-color:#579f79;
-  width:250px;
-  height:250px;
-  border:none;
-  border-radius:50%;
-  margin:auto;
-  color:#fff;
-}
-.circle-container h1{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  margin:0;
-  font-size:60px;
-}
-
-.team .card h2{
-  text-align:center;
-  margin:30px 0 0 0;
-}
-.team .card h4{
-  text-align:center;
-  margin:10px 0 0 0;
-}
-.team .card p{
-  width:250px;
-  margin:30px auto;
-  text-align:center;
-
-}
-.clear{
-   clear: both;			
-}
-
-footer{
-  width:100%;
-  height:100px;
-  background-color:#28587c;
-}
-footer p{
-  text-align:center;
-  padding: 0 2% ;
-}
-
 
 
 /* media */
@@ -835,3 +663,68 @@ footer p{
   color: #73B925;
 }
 
+.centered-container {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-image: url("https://i.pinimg.com/564x/4e/72/16/4e721611d464102bc85e18d5bfaded7d.jpg");
+ background-size: cover;
+ background-position: center;
+} 
+
+.registration-form {
+ background-color: rgba(41, 54, 37, 0.8);
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ max-width: 400px;
+ width: 100%;
+ text-align: center;
+}
+
+.registration-form h2 {
+ font-size: 24px;
+ color: #779c6c;
+ margin-bottom: 20px;
+}
+
+.registration-form input {
+ width: 100%;
+ padding: 10px;
+ margin: 10px 0;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+.registration-form button {
+ width: 100%;
+ padding: 10px;
+ background-color: #15c00669;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-weight: bold;
+ margin-top: 10px;
+}
+
+.registration-form button:hover {
+ background-color: #1fff06d8;
+}
+
+
+.registration-form .email-icon {
+ background-image: url("email-icon.png");
+ background-size: 20px; 
+ background-repeat: no-repeat;
+ background-position: left center;
+ padding-left: 30px;
+}
+.registration-form .password-icon {
+ background-image: url("password-icon.png");
+ background-size: 20px; 
+ background-repeat: no-repeat;
+ background-position: left center;
+ padding-left: 30px; 
+} 

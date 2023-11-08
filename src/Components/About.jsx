@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ourabout from '../assets/ourabout.png';
 import pepleuni from '../assets/pepleuni.png';
+
 import '../App.css'
 const About = () => {
 
@@ -20,9 +21,31 @@ return (
       <div class="left">
          <h1>Who We Are</h1>
          <hr/>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <p>"🌿 Welcome to Mazingira – Where Passion Meets Purpose in the Heart of Environmental Conservation! 🌍
 
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+At Mazingira, we are more than just a group; we are a vibrant community of dedicated individuals united by a common goal – safeguarding our planet for future generations. 
+
+With unwavering commitment and boundless enthusiasm, we lead the charge in environmental conservation and sustainable practices.
+
+Imagine a world where lush forests thrive 🌳, oceans teem with life 🐠, and every living being coexists harmoniously 🌏.
+
+ This vision fuels our every endeavor, propelling us to take meaningful actions that resonate across the globe.
+
+  Our mission is clear: to protect, preserve, and rejuvenate the environment, one initiative at a time.
+
+What sets us apart is not just our passion for the environment, but our innovative approach to conservation. 
+
+Through groundbreaking research 📚, community engagement 👥, and hands-on projects 🌱, we tackle environmental challenges head-on.
+
+ From reforestation efforts and wildlife preservation 🦁 to advocating for eco-friendly policies 🌿, we are the driving force behind positive change.
+
+Join us on this exhilarating journey toward a greener, cleaner planet. Together, we can turn the tide and create a world where nature thrives and humanity lives in harmony with the Earth.
+
+ Explore, learn, and collaborate with us at Mazingira – because when it comes to environmental conservation, every action counts.
+ 
+ Together, let's make a difference that will be felt for generations to come. 🌎✨"</p>
+
+         
 
       </div>
       <div class="right">
@@ -39,28 +62,90 @@ return (
   <div class="right">
     <h1>Mission Statement</h1>
     <hr/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>🌱 At Mazingira, our mission is to champion the cause of environmental conservation with unwavering dedication, innovative solutions, and inclusive community engagement. We strive to protect and preserve the Earth's ecosystems, biodiversity, and natural resources, fostering a sustainable future for all.
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+🌍 Through education, advocacy, and hands-on initiatives, we empower individuals and communities to embrace eco-friendly practices, reduce their ecological footprint, and actively participate in the preservation of our planet. We are committed to researching, implementing, and promoting sustainable solutions that address pressing environmental issues, ensuring the well-being of current and future generations.
+
+🌿 With a deep sense of responsibility, we work tirelessly to raise awareness about environmental challenges and inspire collective action. By fostering a sense of environmental stewardship, we aim to create a world where the delicate balance between humanity and nature is respected, allowing both to thrive harmoniously.
+
+🌏 Join us in our mission to safeguard the environment, promote sustainability, and create a lasting legacy of conservation. Together, we can make a meaningful impact and pave the way for a greener, healthier planet for all. 🌎✨".</p>
+
+    
 
   </div>
 <div class="clear"></div>
 
 </div>
-<div class="team">
-      <h1> Our Team
-         <hr/>
-      </h1>
+<div className="team" style={{ 
+  backgroundImage: 'url("src/assets/hands-with plants_1280 1.png")', 
+  backgroundSize: 'cover', 
+  backgroundRepeat: 'no-repeat', 
+  backgroundPosition: 'center', 
+  width: '100%', 
+  paddingTop: '75%', // Maintain the aspect ratio (height:width = 3:4) by adjusting padding
+  position: 'relative', // Add this style to enable absolute positioning of content inside the div
+  color: 'white' // Set text color to white
+}}>
+  <h1> Our Team
+    <hr />
+  </h1>
+  <h2>
+    Cedrick:
+    <br />
+    Email: cedrick@mazingira.com
+    <br />
+    Phone Number: 07023456788
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Nashon:
+    <br />
+    Email: nashon@mazingira.com
+    <br />
+    Phone Number: 012345678
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Miriam:
+    <br />
+    Email: miriam@mazingira.com
+    <br />
+    Phone Number: 07456890754
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Marion:
+    <br />
+    Email: marion@mazingira.com
+    <br />
+    Phone Number: 07689009456
+    <br />
+    Location: ngong, Nairobi
+    <br />
+    <br />
+    Victor:
+    <br />
+    Email: victor@mazingira.com
+    <br />
+    Phone Number: 0768945683
+    <br />
+    Location: ngong, Nairobi
+  </h2>
+</div>
+
+     
 
       
 
 
    </div>
 
-    /</div>
+    
     </>
   );
 };
 
 export default About;
-

@@ -4,6 +4,7 @@ import world from '../assets/world.png';
 import energy from '../assets/energy.png';
 import farms from '../assets/farms.png';
 import logo from '../assets/logo.png';
+
 import '../App.css'
 const Home = () => {
   useEffect(() => {
@@ -60,50 +61,159 @@ const Home = () => {
           <span className="dot"></span>
         </div>
       </div>
-      <p>Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?
-        Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Voluptat
-        um doloribus minus in numquam asperiores accusa
-        ntium corporis quae hic officiis cum vel culpa 
-        veritatis, odit ipsa vitae, ut incidunt aliquid eius?</p>
+      <p>" <h1 style={{
+  fontFamily: 'Arial, sans-serif',
+  fontSize: '36px',
+  fontWeight: 'bold',
+  color: '#4CAF50',
+  textAlign: 'center',
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'
+}}>
+  Welcome to <span style={{ fontStyle: 'italic' }}>Mazingira</span>: Empowering Environmental Champions! 🌿
+</h1>
+
+
+      <br></br>
+
+      "Discover the Power of Green 🌱, Act Locally, Impact Globally 🌎.
+       Uniting for a Greener Tomorrow 🌿, Conservation in Action 🦋, Your Planet, Your Responsibility 🌍.
+        Join the Green Revolution! 🌳, Transforming Passion into Planet-saving Action 💚.
+         Be the Change Nature Needs 🌼, Together, Let's Preserve Paradise! 🌏.
+         Eco-conscious Living Starts Here 🌱, Every Step Counts, Every Choice Matters 🌍. 
+         Inspiring Eco Warriors Worldwide! 🌎 . 
+         Embrace Nature, Embrace Life 🍃. 
+          Where Sustainability Meets Community 🌱, Let's Build a Greener Future, Together! 🌿.    
+          Nurturing Nature, Nurturing Futures 🌍, Be the Voice Mother Earth Needs 🌎, Eco-Friendly Living Made Easy!  
+           Take a Stand for the Planet! 🌍"
+<br>
+</br>
+<br>
+</br><br>
+</br><br>
+</br><br>
+</br><br>
+</br><br>
+</br>
+</p>
+
+
+
+<h2>
+Budgeting for animal provisions (food, shelter, medical care)
+
+plants = sustainable ecosystem 🌱🐾
+#SaveAnimals</h2>
+<br>
+</br><br>
+</br>
+
+<div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
+    Partners
+  </div>
+  <img
+    className="rectangle-54"
+    alt="Rectangle 54"
+    src="src/assets/WED_-_Main.png"
+    style={{
+      width: '319.297px',
+      height: '189.317px',
+      flexShrink: 0,
+      marginRight: '10px' // Adjust the spacing between the images as needed
+    }}
+  />
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
+    Permits
+  </div>
+  <img
+    className="rectangle-51"
+    alt="Rectangle 51"
+    src="src/assets/mqdefault.jpg"
+    style={{
+      width: '319.297px',
+      height: '189.317px',
+      flexShrink: 0,
+      marginRight: '10px' // Adjust the spacing between the images as needed
+    }}
+  />
+  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center' }}>
+    Recycle
+  </div>
+  <img
+    className="rectangle-60"
+    alt="Rectangle 60"
+    src="src/assets/zero-carbon-emmision1.jpg"
+    style={{
+      width: '319.297px',
+      height: '189.317px',
+      flexShrink: 0
+    }}
+  />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+   <br>
+   </br>  
+   <br>
+   </br> <br>
+   </br> <br>
+   </br> <br>
+   </br> <br>
+   </br> <br>
+   </br> 
+   <div className="your-container">
+  <h1>Do You Care Our Mother Earth Like We Do?</h1>
+
+  <br></br>
+  <br></br>
+  <br></br>
+  <div style={{ marginLeft: '20px' }}>
+    <div style={{ color: '#000', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
+      $920,000 FUNDS RAISED BY 1200 PEOPLE
+    </div>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '40px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
+      $920,000
+    </div>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
+      FUNDS RAISED BY 1200 PEOPLE
+    </div>
+  </div>
+
+  
+  <img
+    className="hands-with-plants"
+    alt="Hands with plants"
+    src="src/assets/hands-with plants_1280 1.png"
+    style={{
+      width: '864.43px',
+      height: '347.642px',
+      flexShrink: 0,
+    }}
+  />
+  <h2>
+    Environmental degradation is the disintegration of the earth or deterioration of the environment through the consumption of assets, for example, air, water, and soil; the destruction of environments and the eradication of wildlife. It is characterized as any change or aggravation to nature’s turf seen to be pernicious or undesirable. This process leads to the endangerment of the human race; however, there are limited resources to help combat this at this time.
+  </h2>
+  
+</div>
+
+
+
+   <br>
+   </br>
+   <br>
+   </br>
+
+
+
         <div class="bottom-page">
         <ul>
             <li><a href=""> <img src={logo} alt='Logo'/> </a></li>
@@ -160,4 +270,3 @@ const Home = () => {
 };
 
 export default Home;
-

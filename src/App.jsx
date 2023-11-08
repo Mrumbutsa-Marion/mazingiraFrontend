@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import NavBar from './NavBar';
@@ -9,7 +8,7 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact';
 import SignUp from './Components/SignUp';
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -35,9 +34,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/About" element={<About />} />
         <Route path="/Organization" element={<Organization />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="About" element={<About/>}/>
 
       </Routes>
      </div>

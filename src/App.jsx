@@ -7,6 +7,8 @@ import Organizations from './Components/Organizations';
 import About from './Components/About.jsx';
 import Contact from './Components/Contact';
 import SignUp from './Components/SignUp';
+import Payment from './Components/Payment';
+
 function App() {
   
 
@@ -23,6 +25,7 @@ function App() {
           <Route path="/organizations" element={<Organizations />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/payment" element={<Payment />} />
 
         </Routes>
       </div>

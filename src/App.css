@@ -217,7 +217,7 @@ nav a:nth-child(3):hover ~ #indicator {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* Adjusting header height for smaller screens */
+  /*adding responsivnes header height for smaller screens */
   header {
     height: 400px;
   }
@@ -235,13 +235,13 @@ nav a:nth-child(3):hover ~ #indicator {
     font-size: 3em;
   }
 
-  /* Adjusting font sizes and padding for smaller screens */
+  /* adding responsivnes font sizes and padding for smaller screens */
   .button-container {
     margin-top: 10px;
   }
 }
 
-/* Adjusting for very small screens */
+/* adding responsivness for very small screens */
 
 @media (max-width: 480px) {
   header {
@@ -438,16 +438,15 @@ padding: 6px;
   background-color: #000;
 }
 
-/* Responsive adjustments for smaller screens */
+/* adding responsivnes adjustments for smaller screens */
 
-/* Two products per row for smaller screens */
+/* adding responsivnes Two products per row for smaller screens */
 @media (max-width: 768px) {
   .product-card {
     flex-basis: calc(50% - 20px);
   }
 }
 
-/* For screens smaller than 480px, display one product per row */
 @media (max-width: 480px) {
   .product-card {
     flex-basis: calc(100% - 20px);
@@ -466,7 +465,6 @@ padding: 6px;
 }
 
 
-/* Font size adjustments for smaller screens */
 @media (max-width: 768px) {
   .product-card h3 {
     font-size: 16px;
@@ -486,10 +484,6 @@ padding: 6px;
      margin:20px auto;
   }
 }
-
-
-
-
 
 
 @media(max-width:992px){
@@ -662,69 +656,3 @@ padding: 6px;
 .submit button a:hover{
   color: #73B925;
 }
-
-.centered-container {
-  display: flex;
- justify-content: center;
- align-items: center;
- min-height: 100vh;
- background-image: url("https://i.pinimg.com/564x/4e/72/16/4e721611d464102bc85e18d5bfaded7d.jpg");
- background-size: cover;
- background-position: center;
-} 
-
-.registration-form {
- background-color: rgba(41, 54, 37, 0.8);
- padding: 20px;
- border-radius: 10px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
- max-width: 400px;
- width: 100%;
- text-align: center;
-}
-
-.registration-form h2 {
- font-size: 24px;
- color: #779c6c;
- margin-bottom: 20px;
-}
-
-.registration-form input {
- width: 100%;
- padding: 10px;
- margin: 10px 0;
- border: 1px solid #ccc;
- border-radius: 5px;
-}
-
-.registration-form button {
- width: 100%;
- padding: 10px;
- background-color: #15c00669;
- color: #fff;
- border: none;
- border-radius: 5px;
- cursor: pointer;
- font-weight: bold;
- margin-top: 10px;
-}
-
-.registration-form button:hover {
- background-color: #1fff06d8;
-}
-
-
-.registration-form .email-icon {
- background-image: url("email-icon.png");
- background-size: 20px; 
- background-repeat: no-repeat;
- background-position: left center;
- padding-left: 30px;
-}
-.registration-form .password-icon {
- background-image: url("password-icon.png");
- background-size: 20px; 
- background-repeat: no-repeat;
- background-position: left center;
- padding-left: 30px; 
-} 

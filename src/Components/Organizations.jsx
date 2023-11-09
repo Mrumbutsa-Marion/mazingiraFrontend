@@ -6,7 +6,7 @@ const Organizations = () => {
     const [organizations, setOrganizations] = useState([]);
 
     useEffect(() => {
-      fetch('http://127.0.0.1:5002/organizations')
+      fetch('https://mazingira105api.onrender.com/organizations')
         .then(response => response.json())
         .then(data => setOrganizations(data));
     }, []);

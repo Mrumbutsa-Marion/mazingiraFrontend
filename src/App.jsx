@@ -28,19 +28,7 @@ function App() {
       </div>
       
     </BrowserRouter>
-     {/* <BrowserRouter>
-     <div>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/Organization" element={<Organization />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="About" element={<About/>}/>
-
-      </Routes>
-     </div>
-      </BrowserRouter> */}
+    
     </>
   )
 }

@@ -25,7 +25,7 @@ const Home = () => {
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 4000); // Change image every 4 seconds
+      setTimeout(showSlides, 4000); 
     };
     showSlides();
   }, []);
@@ -70,7 +70,7 @@ const Home = () => {
   textAlign: 'center',
   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' 
 }}>
-  Welcome to <span style={{ fontStyle: 'italic' }}>Mazingira</span>: Empowering Environmental Champions! 🌿
+  Welcome to Mazingira<br></br> Empowering Environmental Champions! 🌿
 </h1>
 
   <br>
@@ -80,15 +80,7 @@ const Home = () => {
   <br>
   </br>
 
-  <div>
-  {/* <h2 style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Discover the Power of Green 🌱</h2> */}
-  {/* <p style={{ color: 'black', fontWeight: '600', lineHeight: '1.5' }}>
-    Unite for a Greener Tomorrow 🌿, Join the Green Revolution! 🌳, Be the Change Nature Needs 🌼.<br />
-    Eco-conscious Living Starts Here 🌱, Inspire Eco Warriors Worldwide! 🌎, Embrace Nature, Embrace Life 🍃, Build a Greener Future Together! 🌿.<br />
-    Act Locally, Impact Globally 🌎, Your Planet, Your Responsibility 🌍, Every Step Counts, Every Choice Matters 🌍.<br />
-    Nurturing Nature, Nurturing Futures 🌍, Be the Voice Mother Earth Needs 🌎, Take a Stand for the Planet! 🌍.
-  </p> */}
-</div>
+ 
 
 
 </div>
@@ -107,17 +99,15 @@ const Home = () => {
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>
-  {/* Budgeting for animal provisions (food, shelter, medical care) <br />
-  Plants = sustainable ecosystem 🌱🐾 <br />
-  #SaveAnimals */}
+ 
 </h2>
 
 <br>
 </br><br>
 </br>
 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', justifyContent: 'space-evenly', alignItems: 'center', textAlign: 'center' }}>
-  <div style={{ position: 'relative' }}>
-    <div style={{ position: 'absolute', top: '-30px', left: '0', right: '0', backgroundColor: '#cfe2d4', padding: '10px', width: '100px', margin: '0 auto' }}>
+<div style={{ position: 'relative' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
       Partners
     </div>
     <img
@@ -129,10 +119,15 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-    <p>Engage with environmental organizations and businesses for a greener future.</p>
+       <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Engage with environmental organizations and businesses for a greener future. 
+        <span role="img" aria-label="earth">🌍</span>
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="sunflower">🌻</span>
+      </p>
   </div>
   <div style={{ position: 'relative' }}>
-    <div style={{ position: 'absolute', top: '-30px', left: '0', right: '0', backgroundColor: '#cfe2d4', padding: '10px', width: '100px', margin: '0 auto' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
       Permits
     </div>
     <img
@@ -144,10 +139,15 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-    <p>Explore eco-friendly permits and regulations for sustainable practices.</p>
+    <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Explore eco-friendly permits and regulations for sustainable practices. 
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="recycle">♻️</span>
+        <span role="img" aria-label="earth">🌍</span>
+      </p>
   </div>
   <div style={{ position: 'relative' }}>
-    <div style={{ position: 'absolute', top: '-30px', left: '0', right: '0', backgroundColor: '#cfe2d4', padding: '10px', width: '100px', margin: '0 auto' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
       Recycle
     </div>
     <img
@@ -159,7 +159,12 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-    <p>Learn about recycling programs and how to reduce your carbon footprint.</p>
+     <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Learn about recycling programs and how to reduce your carbon footprint.
+        <span role="img" aria-label="recycle">♻️</span>
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="footprint">👣</span>
+      </p>
   </div>
 </div>
 
@@ -190,7 +195,7 @@ const Home = () => {
    </br> 
    <div className="your-container">
    <h1 style={{
-  fontSize: '32px',
+  fontSize: '36px',
   fontWeight: 'bold',
   color: 'black',
   textAlign: 'center',
@@ -199,50 +204,68 @@ const Home = () => {
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>
-  Do You Care Our Mother Earth Like We Do?
+  Hi Yes You !!!!  Did You Know That ?
 </h1>
-
-
-  <br></br>
-  <br></br>
-  <br></br>
-  <div style={{ marginLeft: '20px' }}>
-    <div style={{ color: '#000', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      $920,000 FUNDS RAISED BY 1200 PEOPLE
-    </div>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '40px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      $920,000
-    </div>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      FUNDS RAISED BY 1200 PEOPLE
-    </div>
-  </div>
-
-  
-  <img
-    className="hands-with-plants"
-    alt="Hands with plants"
-    src="src/assets/hands-with plants_1280 1.png"
-    style={{
-      width: '864.43px',
-      height: '347.642px',
-      flexShrink: 0,
-    }}
-  />
- <h2 style={{
-  fontFamily: 'Arial, sans-serif', /* Use a standard font family */
-  fontSize: '18px', /* Adjust the font size as needed */
-  fontWeight: 'normal', /* Use a normal font weight */
-  color: '#333', /* Set text color */
-  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)', /* Add text shadow for shading */
-  lineHeight: '1.5' /* Set line height for better readability */
+<br></br>
+<br></br>
+<br></br>
+<h2 style={{
+  fontFamily: 'Arial, sans-serif', 
+  fontSize: '20px', 
+  fontWeight: 'normal', 
+  color: '#333',
+  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)', 
+  lineHeight: '1.5', 
+  textAlign: 'center'
 }}>
-  Environmental degradation is the disintegration of the earth or deterioration of the environment<br />
+   Environmental degradation is the disintegration of the earth or deterioration of the environment<br />
   through the consumption of assets, for example, air, water, and soil; the destruction of environments<br />
   and the eradication of wildlife. It is characterized as any change or aggravation to nature’s turf seen<br />
   to be pernicious or undesirable. This process leads to the endangerment of the human race; however, there<br />
-  are limited resources to help combat this at this time.
+  are limited resources to help combat this at this time. 
 </h2>
+
+
+
+
+  <br></br>
+  <br></br>
+  <br></br>
+  
+
+<div style={{ display: 'flex' }}>
+  <img
+    className="hands-with-plants"
+    alt="Hands with plants"
+    src="src/assets/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo 1.png"
+    style={{
+      width: '662px',
+      height: '349px',
+      flexShrink: 0,
+      marginLeft:'40px'
+    }}  
+  />
+  <div style={{ marginLeft: '20px' }}>
+    <h1 style={{ color: 'BLACK', fontFamily: 'Inter', fontSize: '36px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+      Yes You A Kind Hearted ONE<br></br>
+      Your Donations Is Worth !
+    </h1>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+     * $920,000 FUNDS RAISED BY 1200 PEOPLE
+    </div>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+     
+    ***********  $920,000 *********
+    </div>
+    <div style={{ color: 'black', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' ,textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'}}>
+      FUNDS RAISED BY 1200 PEOPLE !!!! <br></br>
+      #  Make Earth Habitable..
+    </div>
+  </div>
+</div>
+
+
+
 
   
 </div>

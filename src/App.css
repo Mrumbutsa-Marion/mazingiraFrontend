@@ -15,7 +15,7 @@ body {
   height: 0auto;
   background-color: red;
   width: 100%;
-  /* position: fixed; */
+ 
 
 }
 .navbar {
@@ -53,7 +53,7 @@ body {
 }
 
 .navigation {
-  /* position: fixed; */
+ 
   width: 100%;
   overflow: hidden;
   background-color: #73B925;
@@ -217,7 +217,7 @@ nav a:nth-child(3):hover ~ #indicator {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* Adjusting header height for smaller screens */
+  
   header {
     height: 400px;
   }
@@ -235,13 +235,13 @@ nav a:nth-child(3):hover ~ #indicator {
     font-size: 3em;
   }
 
-  /* Adjusting font sizes and padding for smaller screens */
+  
   .button-container {
     margin-top: 10px;
   }
 }
 
-/* Adjusting for very small screens */
+
 
 @media (max-width: 480px) {
   header {
@@ -266,7 +266,7 @@ nav a:nth-child(3):hover ~ #indicator {
   }
 }
 
-/*Home Page*/
+
 
 .home {
   height: 300vh;
@@ -277,29 +277,24 @@ nav a:nth-child(3):hover ~ #indicator {
   width: 100%;
   border-radius: 10px;
   height: 28em;
-  /* box-shadow: 10px 10px 5px #ccc; */
-  /* border: 1px solid hsl(0, 10%, 34%); */
-  overflow: hidden;
-  /* background-color: rgb(137, 137, 215); */
-
+  
+ 
 
 }
 
-/* Footer */
+
 .bottom-page {
   background-image: url('./assets/footerflower.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #8585b3;
-  opacity:8;
-  background-blend-mode: hue; */
+ 
   height: 19rem;
   z-index: 1;
   position: relative;
   margin: 0;
   padding: 2rem;
-  /* left: -4rem; */
+ 
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -382,7 +377,7 @@ font-size: 1.1em;
 padding: 6px;
   
 }
-/*Organization*/
+
 .organization-container {
   height: 300vh;
   width: 100%;
@@ -438,16 +433,14 @@ padding: 6px;
   background-color: #000;
 }
 
-/* Responsive adjustments for smaller screens */
 
-/* Two products per row for smaller screens */
 @media (max-width: 768px) {
   .product-card {
     flex-basis: calc(50% - 20px);
   }
 }
 
-/* For screens smaller than 480px, display one product per row */
+
 @media (max-width: 480px) {
   .product-card {
     flex-basis: calc(100% - 20px);
@@ -466,7 +459,7 @@ padding: 6px;
 }
 
 
-/* Font size adjustments for smaller screens */
+
 @media (max-width: 768px) {
   .product-card h3 {
     font-size: 16px;
@@ -476,11 +469,7 @@ padding: 6px;
 .header-two {
   width:100%;
   height:100vh;
-  /* width: 100%;
-  background-color:rgb(30, 173, 255);
-  background-image:url('https://res-console.cloudinary.com/dqnofyo7r/thumbnails/v1/image/upload/v1699305811/c2FtcGxlcy9iaWtl/as_is');
-  background-size:cover;
-  background-position:bottom; */
+
 }
 img .aboutclass{
   height: 100vh;
@@ -693,7 +682,7 @@ footer p{
 
 
 
-/*donate-container*/
+
 .donate-container{
   height: 150vh;
   width: 100%;

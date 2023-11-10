@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import './About.css';
 
 function Registration() {
-  const [orgName, setOrgName] = useState('');
-  const [contactInfo, setContactInfo] = useState('');
+  const [name, setname] = useState('');
+  const [contact_information, setcontact_information] = useState('');
   const [description, setDescription] = useState('');
-  const [imageUrl, setImageUrl] = useState('');
+  const [image_url, setimage_url] = useState('');
   const [successMessageVisible, setSuccessMessageVisible] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-// Corrected formData keys to match the server-side expectation
+
 const formData = {
-  name: orgName, // Key changed from orgName to name
-  contact_information: contactInfo, // Key changed from contactInfo to contact_information
-  description: description, // Key is already correct
-  image_url: imageUrl, // Key changed from imageUrl to image_url
+  name: name, 
+  contact_information: contact_information, 
+  description: description, 
+  image_url: image_url, 
 };
 
 fetch('https://mazingira-organizationapi.onrender.com/apply', {
@@ -46,10 +46,10 @@ fetch('https://mazingira-organizationapi.onrender.com/apply', {
   };
 
   const resetForm = () => {
-    setOrgName('');
-    setContactInfo('');
+    setname('');
+    setcontact_information('');
     setDescription('');
-    setImageUrl('');
+    setimage_url('');
   };
 
   const handleCancel = () => {
@@ -60,26 +60,26 @@ fetch('https://mazingira-organizationapi.onrender.com/apply', {
     <div className="container">
       <h2>Sustainability Enrollment Form</h2>
       <form id="organizationForm" onSubmit={handleSubmit}>
-        <label htmlFor="orgName">Organization Name:</label>
+        <label htmlFor="name">Organization Name:</label>
         <input
           type="text"
-          id="orgName"
-          name="orgName"
+          id="name"
+          name="name"
           required
           placeholder="Enter Organization Name"
-          value={orgName}
-          onChange={(event) => setOrgName(event.target.value)}
+          value={name}
+          onChange={(event) => setname(event.target.value)}
         />
 
-    <label htmlFor="contactInfo">Contact Information:</label>
+    <label htmlFor="contact_information">Contact Information:</label>
     <input
       type="text"
-      id="contactInfo"
-      name="contactInfo"
+      id="contact_information"
+      name="contact_information"
       required
       placeholder="Enter Contact Information"
-      value={contactInfo}
-      onChange={(event) => setContactInfo(event.target.value)}
+      value={contact_information}
+      onChange={(event) => setcontact_information(event.target.value)}
     />
 
     <label htmlFor="description">Description:</label>
@@ -91,14 +91,14 @@ fetch('https://mazingira-organizationapi.onrender.com/apply', {
       onChange={(event) => setDescription(event.target.value)}
     ></textarea>
 
-    <label htmlFor="imageUrl">Image URL:</label>
+    <label htmlFor="image_url" id='imagess' style={{ width: '200px', height: '30px' }}>Image URL:</label>
     <input
       type="url"
-      id="imageUrl"
-      name="imageUrl"
+      id="image_url"
+      name="image_url"
       placeholder="Enter Organization Image URL"
-      value={imageUrl}
-      onChange={(event) => setImageUrl(event.target.value)}
+      value={image_url}
+      onChange={(event) => setimage_url(event.target.value)}
     />
 
     <div className="button-container">

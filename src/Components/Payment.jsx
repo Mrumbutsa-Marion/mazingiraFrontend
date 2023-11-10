@@ -7,7 +7,6 @@ function Payment() {
   const [showThankYou, setShowThankYou] = useState(false);
 
   const handlePayPalDonationComplete = () => {
-    // Handle donation completion logic here
     setShowThankYou(true);
   };
 
@@ -16,10 +15,8 @@ function Payment() {
                 <h2>Payment</h2>
       <p>
         Thank you for choosing to support our environmental organization! Your contribution will help us continue our mission to protect and preserve the environment for future generations.Environmental education has always been our core mission. We believe that education is key to changing the way we think and behave.
-
-“Where the heart goes, the body will follow”. We focus on reconnecting people with nature, encouraging them to discover first-hand the wonders of nature and be inspired to protect the environment.
-
-If you share our philosophy, please donate in support of our cause. Join us in promoting environmental education and protecting our planet!
+        “Where the heart goes, the body will follow”. We focus on reconnecting people with nature, encouraging them to discover first-hand the wonders of nature and be inspired to protect the environment. 
+         If you share our philosophy, please donate in support of our cause. Join us in promoting environmental education and protecting our planet!
       </p>
       <img className="picture"
       

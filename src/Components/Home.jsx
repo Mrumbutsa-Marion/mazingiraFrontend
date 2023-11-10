@@ -26,7 +26,7 @@ const Home = () => {
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 6000); // Change image every 4 seconds
+      setTimeout(showSlides, 6000); 
     };
     showSlides();
   }, []);
@@ -62,106 +62,99 @@ const Home = () => {
           <span className="dot"></span>
         </div>
       </div>
-      <p>" <h1 style={{
-  fontFamily: 'Arial, sans-serif',
-  fontSize: '36px',
-  fontWeight: 'bold',
-  color: '#4CAF50',
-  textAlign: 'center',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'
+      <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
+      <h1 style={{
+        fontFamily: 'black',
+          fontSize: '36px',
+          fontWeight: 'bold',
+           color: 'black',
+           textAlign: 'center',
+           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' 
 }}>
-  Welcome to <span style={{ fontStyle: 'italic' }}>Mazingira</span>: Empowering Environmental Champions! 🌿
+  Welcome to Mazingira<br></br> Empowering Environmental Champions! 🌿
 </h1>
 
 
-      <br></br>
-
-      "Discover the Power of Green 🌱, Act Locally, Impact Globally 🌎.
-       Uniting for a Greener Tomorrow 🌿, Conservation in Action 🦋, Your Planet, Your Responsibility 🌍.
-        Join the Green Revolution! 🌳, Transforming Passion into Planet-saving Action 💚.
-         Be the Change Nature Needs 🌼, Together, Let's Preserve Paradise! 🌏.
-         Eco-conscious Living Starts Here 🌱, Every Step Counts, Every Choice Matters 🌍. 
-         Inspiring Eco Warriors Worldwide! 🌎 . 
-         Embrace Nature, Embrace Life 🍃. 
-          Where Sustainability Meets Community 🌱, Let's Build a Greener Future, Together! 🌿.    
-          Nurturing Nature, Nurturing Futures 🌍, Be the Voice Mother Earth Needs 🌎, Eco-Friendly Living Made Easy!  
-           Take a Stand for the Planet! 🌍"
-<br>
-</br>
-<br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br>
-</p>
-
-
-
-<h2>
-Budgeting for animal provisions (food, shelter, medical care)
-
-plants = sustainable ecosystem 🌱🐾
-#SaveAnimals</h2>
-<br>
-</br><br>
-</br>
-
-<div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
-    Partners
-  </div>
-  <img
-    className="rectangle-54"
-    alt="Rectangle 54"
-    src="src/assets/WED_-_Main.png"
-    style={{
-      width: '319.297px',
-      height: '189.317px',
-      flexShrink: 0,
-      marginRight: '10px' // Adjust the spacing between the images as needed
-    }}
-  />
-  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center', marginRight: '10px' }}>
-    Permits
-  </div>
-  <img
-    className="rectangle-51"
-    alt="Rectangle 51"
-    src="src/assets/mqdefault.jpg"
-    style={{
-      width: '319.297px',
-      height: '189.317px',
-      flexShrink: 0,
-      marginRight: '10px' // Adjust the spacing between the images as needed
-    }}
-  />
-  <div style={{ backgroundColor: '#cfe2d4', padding: '10px', textAlign: 'center' }}>
-    Recycle
-  </div>
-  <img
-    className="rectangle-60"
-    alt="Rectangle 60"
-    src="src/assets/zero-carbon-emmision1.jpg"
-    style={{
-      width: '319.297px',
-      height: '189.317px',
-      flexShrink: 0
-    }}
-  />
 </div>
 
+<h2 style={{
+  fontSize: '284px',
+  fontWeight: 'bold',
+  color: 'black',
+  textAlign: 'center',
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', 
+  whiteSpace: 'nowrap', 
+  overflow: 'hidden', 
+  textOverflow: 'ellipsis' 
+}}>
+ 
+</h2>
 
-
-
-
-
-
-
-
-
-
+<br>
+</br><br>
+</br>
+<div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', justifyContent: 'space-evenly', alignItems: 'center', textAlign: 'center' }}>
+<div style={{ position: 'relative' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+      Partners
+    </div>
+    <img
+      className="rectangle-54"
+      alt="Rectangle 54"
+      src="src/assets/WED_-_Main.png"
+      style={{
+        width: '319.297px',
+        height: '239.476px', 
+      }}
+    />
+       <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Engage with environmental organizations and businesses for a greener future. 
+        <span role="img" aria-label="earth">🌍</span>
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="sunflower">🌻</span>
+      </p>
+  </div>
+  <div style={{ position: 'relative' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+      Permits
+    </div>
+    <img
+      className="rectangle-51"
+      alt="Rectangle 51"
+      src="src/assets/mqdefault.jpg"
+      style={{
+        width: '319.297px',
+        height: '239.476px', 
+      }}
+    />
+    <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Explore eco-friendly permits and regulations for sustainable practices. 
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="recycle">♻️</span>
+        <span role="img" aria-label="earth">🌍</span>
+      </p>
+  </div>
+  <div style={{ position: 'relative' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+      Recycle
+    </div>
+    <img
+      className="rectangle-60"
+      alt="Rectangle 60"
+      src="src/assets/zero-carbon-emmision1.jpg"
+      style={{
+        width: '319.297px',
+        height: '239.476px', 
+      }}
+    />
+     <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        Learn about recycling programs and how to reduce your carbon footprint.
+        <span role="img" aria-label="recycle">♻️</span>
+        <span role="img" aria-label="seedling">🌱</span>
+        <span role="img" aria-label="footprint">👣</span>
+      </p>
+  </div>
+</div>
    <br>
    </br>  
    <br>
@@ -172,37 +165,75 @@ plants = sustainable ecosystem 🌱🐾
    </br> <br>
    </br> 
    <div className="your-container">
-  <h1>Do You Care Our Mother Earth Like We Do?</h1>
-
+   <h1 style={{
+  fontSize: '36px',
+  fontWeight: 'bold',
+  color: 'black',
+  textAlign: 'center',
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', 
+  whiteSpace: 'nowrap',
+  overflow: 'hidden', 
+  textOverflow: 'ellipsis' 
+}}>
+  Hi Yes You !!!!  Did You Know That ?
+</h1>
+<br></br>
+<br></br>
+<br></br>
+<h2 style={{
+  fontFamily: 'Arial, sans-serif', 
+  fontSize: '20px', 
+  fontWeight: 'normal', 
+  color: '#333',
+  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)', 
+  lineHeight: '1.5', 
+  textAlign: 'center'
+}}>
+   Environmental degradation is the disintegration of the earth or deterioration of the environment<br />
+  through the consumption of assets, for example, air, water, and soil; the destruction of environments<br />
+  and the eradication of wildlife. It is characterized as any change or aggravation to nature’s turf seen<br />
+  to be pernicious or undesirable. This process leads to the endangerment of the human race; however, there<br />
+  are limited resources to help combat this at this time. 
+</h2>
   <br></br>
   <br></br>
   <br></br>
-  <div style={{ marginLeft: '20px' }}>
-    <div style={{ color: '#000', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      $920,000 FUNDS RAISED BY 1200 PEOPLE
-    </div>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '40px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      $920,000
-    </div>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
-      FUNDS RAISED BY 1200 PEOPLE
-    </div>
-  </div>
-
   
+
+<div style={{ display: 'flex' }}>
   <img
     className="hands-with-plants"
     alt="Hands with plants"
-    src="src/assets/hands-with plants_1280 1.png"
+    src="src/assets/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo 1.png"
     style={{
-      width: '864.43px',
-      height: '347.642px',
+      width: '662px',
+      height: '349px',
       flexShrink: 0,
-    }}
+      marginLeft:'40px'
+    }}  
   />
-  <h2>
-    Environmental degradation is the disintegration of the earth or deterioration of the environment through the consumption of assets, for example, air, water, and soil; the destruction of environments and the eradication of wildlife. It is characterized as any change or aggravation to nature’s turf seen to be pernicious or undesirable. This process leads to the endangerment of the human race; however, there are limited resources to help combat this at this time.
-  </h2>
+  <div style={{ marginLeft: '20px' }}>
+    <h1 style={{ color: 'BLACK', fontFamily: 'Inter', fontSize: '36px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+      Yes You A Kind Hearted ONE<br></br>
+      Your Donations Is Worth !
+    </h1>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+     * $920,000 FUNDS RAISED BY 1200 PEOPLE
+    </div>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+     
+    ***********  $920,000 *********
+    </div>
+    <div style={{ color: 'black', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' ,textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'}}>
+      FUNDS RAISED BY 1200 PEOPLE !!!! <br></br>
+      #  Make Earth Habitable..
+    </div>
+  </div>
+</div>
+
+
+
+
   
 </div>
 
@@ -215,16 +246,7 @@ plants = sustainable ecosystem 🌱🐾
 
 
 
-        <section id="newsletter">
-    <div class="container-newsletter">
-      <h1>Suscribe to our Newsletter</h1>
-      <form>
-        <input type="email" placeholder="Enter Email..."/>
-        <button type="submit" class="button_1">Subscribe</button>
-      </form>
-    </div>
-  </section>
-          <div class="bottom-page">
+        <div class="bottom-page">
         <ul>
             <li><a href=""> <img src={logo} alt='Logo'/> </a></li>
             <li>A small river named Duden flows by </li>
@@ -259,7 +281,8 @@ plants = sustainable ecosystem 🌱🐾
             <li>Payment</li>
         </ul>
         <iframe/>
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8413321289895!2d36.8354996759388!3d-1.2679863987199562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16c483160879%3A0x47be8b9b082e0ab3!2sKCDF%20House!5e0!3m2!1sen!2ske!4v1699301605480!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/> */}
+        
+      
        
     </div>
 
@@ -277,5 +300,4 @@ plants = sustainable ecosystem 🌱🐾
     </>
   );
 };
-
 export default Home;

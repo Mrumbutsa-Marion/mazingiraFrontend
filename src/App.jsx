@@ -9,6 +9,11 @@ import Contact from './Components/Contact';
 import SignUp from './Components/SignUp';
 import Registration from './Components/Registration.jsx';
 import Payment from './Components/Payment';
+import Beneficiary from './Components/Beneficiary.jsx';
+import Inventory from './Components/Inventory';
+import Donation from './Components/Donation';
+
+
 
 function App() {
   
@@ -28,24 +33,17 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/payment" element={<Payment />} />
+          <Route path="/beneficiary" element={<Beneficiary />} />
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/donation" element={<Donation />} />
+
+
 
         </Routes>
       </div>
       
     </BrowserRouter>
-     {/* <BrowserRouter>
-     <div>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/Organization" element={<Organization />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="About" element={<About/>}/>
-
-      </Routes>
-     </div>
-      </BrowserRouter> */}
+    
     </>
   )
 }

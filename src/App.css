@@ -15,7 +15,7 @@ body {
   height: 0auto;
   background-color: red;
   width: 100%;
-  /* position: fixed; */
+ 
 
 }
 .navbar {
@@ -53,7 +53,7 @@ body {
 }
 
 .navigation {
-  /* position: fixed; */
+ 
   width: 100%;
   overflow: hidden;
   background-color: #73B925;
@@ -182,17 +182,17 @@ nav a:hover:after {
 }
 
 nav a:nth-child(1):hover ~ #indicator {
-  background: linear-gradient(130deg, yellow, red);
+  background: linear-gradient(130deg, yellow, rgb(125, 112, 112));
 }
 
 nav a:nth-child(2):hover ~ #indicator {
   left: 34%;
-  background: linear-gradient(130deg, #00e2ff, #89ff00);
+  background: linear-gradient(130deg, #c3dfe3, #89ff00);
 }
 
 nav a:nth-child(3):hover ~ #indicator {
   left: 70%;
-  background: linear-gradient(130deg, purple, palevioletred);
+  background: linear-gradient(130deg, purple, rgb(119, 95, 103));
 }
 
 
@@ -217,7 +217,8 @@ nav a:nth-child(3):hover ~ #indicator {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /*adding responsivnes header height for smaller screens */
+ 
+  
   header {
     height: 400px;
   }
@@ -235,13 +236,13 @@ nav a:nth-child(3):hover ~ #indicator {
     font-size: 3em;
   }
 
-  /* adding responsivnes font sizes and padding for smaller screens */
+  
   .button-container {
     margin-top: 10px;
   }
 }
 
-/* adding responsivness for very small screens */
+
 
 @media (max-width: 480px) {
   header {
@@ -266,7 +267,7 @@ nav a:nth-child(3):hover ~ #indicator {
   }
 }
 
-/*Home Page*/
+
 
 .home {
   height: 100vh;
@@ -277,29 +278,24 @@ nav a:nth-child(3):hover ~ #indicator {
   width: 100%;
   border-radius: 10px;
   height: 28em;
-  /* box-shadow: 10px 10px 5px #ccc; */
-  /* border: 1px solid hsl(0, 10%, 34%); */
-  overflow: hidden;
-  /* background-color: rgb(137, 137, 215); */
-
+  
+ 
 
 }
 
-/* Footer */
+
 .bottom-page {
   background-image: url('./assets/footerflower.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #8585b3;
-  opacity:8;
-  background-blend-mode: hue; */
+ 
   height: 19rem;
   z-index: 1;
   position: relative;
   margin: 0;
   padding: 2rem;
-  /* left: -4rem; */
+ 
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -382,12 +378,13 @@ font-size: 1.1em;
 padding: 6px;
   
 }
-/*Organization*/
+
 .organization-container {
   height: 300vh;
-  width: 100%;
-  margin-top: -1rem;
-  background-color: blue
+  width: 90%;
+  margin-top: 0rem;
+  margin-left: 100px;
+  background-color: #F1F1F1;
 }
 
 .organization-list {
@@ -398,17 +395,19 @@ padding: 6px;
 }
 
 .organization-card {
-  flex-basis: calc(50% - 20px);
+  /* width: 90%; */
+  flex-basis: calc(50% - 29px);
   box-sizing: border-box;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 8px;
-  background-color: #F1F1F1;
+  background-color: #FFf;
   text-align: center;
 }
 
 .organization-card img {
   max-width: 100%;
+  height: 100vh;
   height: 200px;
   object-fit: cover;
   margin-bottom: 20px;
@@ -423,10 +422,12 @@ padding: 6px;
 .organization-card p {
   margin: 10px 0;
   color: #000;
+  font-size: 1.4em;
+  text-align: justify;
 }
 
 .organization-card button {
-  background-color: #272323;
+  background-color: #89ff00;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -434,18 +435,38 @@ padding: 6px;
   transition: background-color 0.3s ease-in-out;
 }
 
-.organization-card button:hover {
-  background-color: #000;
+.organization-button button:hover {
+  background-color: #fff;
+}
+.organization-button{
+  background-color: #73B925;
+  color: #1c1c1c;
+  border: none;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.help-button{
+  background-color: #73B925;
+  color: #1c1c1c;
+  border: none;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 20px; 
+  transition: background-color 0.3s ease-in-out;
 }
 
-/* adding responsivnes adjustments for smaller screens */
-
-/* adding responsivnes Two products per row for smaller screens */
 @media (max-width: 768px) {
   .product-card {
     flex-basis: calc(50% - 20px);
   }
 }
+
 
 @media (max-width: 480px) {
   .product-card {
@@ -465,15 +486,183 @@ padding: 6px;
 }
 
 
+
 @media (max-width: 768px) {
   .product-card h3 {
     font-size: 16px;
   }
 }
 
+.header-two {
+  width:100%;
+  height:100vh;
+
+}
+img .aboutclass{
+  height: 100vh;
+}
+.about-container{
+  width:100%;
+  height: auto;
+
+  background-color: #F1F1F1;
+  
+}
+.about-container h1{
+  font-size:50px
+}
+.about{
+  padding:5% 0;
+  width:100%;
+  height:auto;
+  margin-top: -330px;
+
+  background-color: #fff;
+}
+.about .left{
+  padding:2% 0;
+  width:50%;
+  display:inline-block;
+}
+.about .right{
+  width:50%;
+  display:inline-block;
+}
+.about .right img{
+  width:100%
+}
+.about .left h1{
+  text-align:center;
+  color:#1C1C1C;
+  margin:0 0 10px 0;
+}
+.about .left hr{
+  width:20%;
+  border-top:2px solid #000;
+  border-bottom:none;
+}
+.about .left p{
+  font-size:1rem;
+  margin:40px auto;
+  width:80%
+}
+
+.mission{
+  padding:5% 0;
+  width:100%;
+  height:auto;
+  background-color:#fff;
+}
+.mission .right{
+  padding:2% 0;
+  width:50%;
+
+  display:inline-block;
+}
+.mission .left{
+  width:50%;
+  display:inline-block;
+}
+.mission .left img{
+  width:100%;
+}
+.mission .right h1{
+  text-align:center;
+  color:#1C1C1C;
+  margin:0 0 20px 0;
+}
+.mission .right hr{
+  width:35%;
+  border-top:2px solid #000;
+  border-bottom:none;
+}
+.mission .right p{
+  font-size:1rem;
+  margin:40px auto;
+  width:80%
+}
 
 
-/* media */
+.team{
+  width:90%;
+  margin:auto;
+  padding:5% 5%;
+  overflow: hidden;
+}
+.team h1{
+  text-align:center;
+  color:#1c1c1c;
+  
+}
+.team h1 hr{
+  width:15%;
+  border-top:2px solid #000;
+  background-color:transperant;
+  border-bottom:none;
+  margin-bottom:50px;
+}
+.team .card{
+  padding-bottom:20px;
+  padding-top:20px;
+  position:relative;
+  min-width:20%;
+  height:500px !important;
+  height:auto;
+  background-color:#fff;
+  display:inline-block;
+  margin:40px 6.5%;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+  text-align:center;
+}
+.card .circle-container{
+  position:relative;
+  background-color:#579f79;
+  width:250px;
+  height:250px;
+  border:none;
+  border-radius:50%;
+  margin:auto;
+  color:#fff;
+}
+.circle-container h1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin:0;
+  font-size:60px;
+}
+
+.team .card h2{
+  text-align:center;
+  margin:30px 0 0 0;
+}
+.team .card h4{
+  text-align:center;
+  margin:10px 0 0 0;
+}
+.team .card p{
+  width:250px;
+  margin:30px auto;
+  text-align:center;
+
+}
+.clear{
+   clear: both;			
+}
+
+footer{
+  width:100%;
+  height:100px;
+  background-color:#28587c;
+}
+footer p{
+  text-align:center;
+  padding: 0 2% ;
+}
+
+
+
 @media(max-width:1200px){
   .mission .right p{
      font-size:.8rem;
@@ -515,7 +704,7 @@ padding: 6px;
 
 
 
-/*donate-container*/
+
 .donate-container{
   height: 150vh;
   width: 100%;
@@ -545,6 +734,8 @@ padding: 6px;
   margin-top: 15px;
 
 }
+
+
 
 
 .contactme{
@@ -656,3 +847,6 @@ padding: 6px;
 .submit button a:hover{
   color: #73B925;
 }
+
+
+

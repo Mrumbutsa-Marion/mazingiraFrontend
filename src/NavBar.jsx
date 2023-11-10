@@ -22,7 +22,7 @@ function Navbar() {
             <img src={location} alt='location'/>
            
           </div>
-          <button onClick={handleRegistrationClick}>
+          <button className="Register" onClick={handleRegistrationClick}>
               Register your Environmental Organization
             </button>
         </div>

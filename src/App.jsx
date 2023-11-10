@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar';
 import Home from './Components/Home';
@@ -7,8 +7,7 @@ import Donate from './Components/Donate';
 import Organization from './Components/Organization';
 import About from './Components/About';
 import ContactUs from './Components/ContactUs';
-import Signin from './SignIn';
-import Signup from './SignUp'; 
+import SignIn from './SignIn';
 
 function App() {
   return (
@@ -22,8 +21,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/organization" element={<Organization />} />
             <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/signin" element={<Signin />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/signin" element={<SignIn />} />
           </Routes>
         </div>
       </BrowserRouter>

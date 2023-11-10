@@ -8,7 +8,7 @@ function SignIn() {
   const [role, setRole] = useState('');
 
   const handleLogin = async () => {
-    const response = await fetch('', {
+    const response = await fetch('https://mazingira-organizationapi.onrender.com/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -21,10 +21,9 @@ function SignIn() {
       setRole(data.role);
       setEmail(data.email);
       
-      window.location.href = '/'; 
+      window.location.href = '/';
     } else {
-      
-      console.error(data.message); 
+      console.error(data.message);
     }
   };
 
@@ -33,6 +32,7 @@ function SignIn() {
       <div className="form-login">
         <form className="loginin-form">
           <input
+            id="username"
             className="input-field"
             type="text"
             placeholder="username"
@@ -40,6 +40,7 @@ function SignIn() {
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
+            id="email"
             className="input-field"
             type="email"
             placeholder="email"
@@ -47,6 +48,7 @@ function SignIn() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
+            id="password"
             className="input-field"
             type="password"
             placeholder="password"
@@ -54,6 +56,7 @@ function SignIn() {
             onChange={(e) => setPassword(e.target.value)}
           />
           <input
+            id="role"
             className="input-field"
             type="text"
             placeholder="role"

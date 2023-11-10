@@ -45,7 +45,7 @@ function Navbar() {
               <Link to="/contact">Contact</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/signup">SignUp</Link>
+              <Link to="/signin">SignIn</Link>
             </li>
           </ul>
         </nav>

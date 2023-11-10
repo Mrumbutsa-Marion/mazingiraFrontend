@@ -68,7 +68,7 @@ const Home = () => {
   fontWeight: 'bold',
   color: 'black',
   textAlign: 'center',
-  marginBottom: '20px' ,
+  marginBottom: '100px' ,
   
 
 }}>

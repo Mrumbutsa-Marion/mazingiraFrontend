@@ -8,6 +8,8 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact';
 import SignUp from './Components/SignUp';
 import Registration from './Components/Registration.jsx';
+import Payment from './Components/Payment';
+
 function App() {
   
 
@@ -25,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/payment" element={<Payment />} />
 
         </Routes>
       </div>

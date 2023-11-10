@@ -68,7 +68,9 @@ const Home = () => {
   fontWeight: 'bold',
   color: 'black',
   textAlign: 'center',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' 
+  marginBottom: '20px' ,
+  
+
 }}>
   Welcome to Mazingira<br></br> Empowering Environmental Champions! 🌿
 </h1>
@@ -90,11 +92,11 @@ const Home = () => {
 
 
 <h2 style={{
-  fontSize: '24px',
+  fontSize: '30px',
   fontWeight: 'bold',
   color: 'black',
   textAlign: 'center',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', 
+  
   whiteSpace: 'nowrap', 
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
@@ -107,7 +109,7 @@ const Home = () => {
 </br>
 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', justifyContent: 'space-evenly', alignItems: 'center', textAlign: 'center' }}>
 <div style={{ position: 'relative' }}>
-  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto', fontSize: '20px' }}>
       Partners
     </div>
     <img
@@ -119,7 +121,7 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-       <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+       <p style={{ textAlign: 'center',width:'319.297px',margin :'o auto',marginLeft:'10%', fontSize: '20px'}}>
         Engage with environmental organizations and businesses for a greener future. 
         <span role="img" aria-label="earth">🌍</span>
         <span role="img" aria-label="seedling">🌱</span>
@@ -127,7 +129,7 @@ const Home = () => {
       </p>
   </div>
   <div style={{ position: 'relative' }}>
-  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' ,fontsize:'20px'}}>
       Permits
     </div>
     <img
@@ -139,17 +141,22 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-    <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-        Explore eco-friendly permits and regulations for sustainable practices. 
-        <span role="img" aria-label="seedling">🌱</span>
-        <span role="img" aria-label="recycle">♻️</span>
-        <span role="img" aria-label="earth">🌍</span>
-      </p>
+    <p style={{ textAlign: 'center', width: '319.297px', margin: '0 auto', marginLeft: '10%', fontSize: '20px' }}>
+  Explore eco-friendly permits and regulations for sustainable practices. 
+  <span role="img" aria-label="seedling">🌱</span>
+  <span role="img" aria-label="recycle">♻️</span>
+  <span role="img" aria-label="earth">🌍</span>
+</p>
+
   </div>
   <div style={{ position: 'relative' }}>
-  <div style={{ position: 'absolute', top: '-35px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto' }}>
+  <div style={{ position: 'absolute', 
+  top: '-35px', left: '0',
+   right: '0', backgroundColor: '#73B925', 
+   padding: '10px', width: '319.297px', margin: '0 auto', fontSize: '20px' }}>
       Recycle
     </div>
+    
     <img
       className="rectangle-60"
       alt="Rectangle 60"
@@ -159,13 +166,19 @@ const Home = () => {
         height: '239.476px', 
       }}
     />
-     <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+     
+     <p style={{ textAlign: 'center'
+     ,width:'319.297px',
+     margin :'o auto',marginLeft:'10%',fontsize:'20px'}}>
         Learn about recycling programs and how to reduce your carbon footprint.
         <span role="img" aria-label="recycle">♻️</span>
         <span role="img" aria-label="seedling">🌱</span>
         <span role="img" aria-label="footprint">👣</span>
       </p>
-  </div>
+  
+
+</div>
+
 </div>
 
 
@@ -199,7 +212,7 @@ const Home = () => {
   fontWeight: 'bold',
   color: 'black',
   textAlign: 'center',
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', 
+  
   whiteSpace: 'nowrap',
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
@@ -214,7 +227,7 @@ const Home = () => {
   fontSize: '20px', 
   fontWeight: 'normal', 
   color: '#333',
-  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)', 
+   
   lineHeight: '1.5', 
   textAlign: 'center'
 }}>
@@ -246,18 +259,18 @@ const Home = () => {
     }}  
   />
   <div style={{ marginLeft: '20px' }}>
-    <h1 style={{ color: 'BLACK', fontFamily: 'Inter', fontSize: '36px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
-      Yes You A Kind Hearted ONE<br></br>
+    <h1 style={{ color: 'BLACK', fontFamily: 'Inter', fontSize: '36px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
+      Yes  You  A  Kind Hearted ONE<br></br>
       Your Donations Is Worth !
     </h1>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' }}>
      * $920,000 FUNDS RAISED BY 1200 PEOPLE
     </div>
-    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>
+    <div style={{ color: '#73B925', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal'}}>
      
     ***********  $920,000 *********
     </div>
-    <div style={{ color: 'black', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal' ,textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'}}>
+    <div style={{ color: 'black', fontFamily: 'Inter', fontSize: '20px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal'}}>
       FUNDS RAISED BY 1200 PEOPLE !!!! <br></br>
       #  Make Earth Habitable..
     </div>

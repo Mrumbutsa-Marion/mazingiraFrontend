@@ -67,15 +67,15 @@ const Home = () => {
 
         fontFamily: 'black',
           fontSize: '36px',
-          fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
-  fontFamily: 'black',
-  fontSize: '36px',
-  fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
-  marginBottom: '200px' ,
+  //         fontWeight: 'bold',
+  // color: 'black',
+  // textAlign: 'center',
+  // fontFamily: 'black',
+  // fontSize: '36px',
+  // fontWeight: 'bold',
+  // color: 'black',
+  // textAlign: 'center',
+  // marginBottom: '200px' ,
   marginTop: '200px'
   
 

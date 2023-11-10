@@ -88,15 +88,16 @@ const Home = () => {
 </div>
 
 <h2 style={{
-  fontSize: '284px',
-  marginBottom: '70px' ,
+  // fontSize: '284px',
+  // marginBottom: '70px' ,
 
-  fontSize: '30px',
-  fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
+  // fontSize: '30px',
+  // fontWeight: 'bold',
+  // color: 'black',
+  // textAlign: 'center',
   
-  whiteSpace: 'nowrap', 
+  // whiteSpace: 'nowrap', 
+  marginBottom: '90px' ,
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>

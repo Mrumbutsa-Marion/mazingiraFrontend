@@ -15,8 +15,12 @@ body {
   height: 0auto;
   background-color: red;
   width: 100%;
- 
 
+}
+.nav-container button{
+  background-color: #73B925;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 .navbar {
   

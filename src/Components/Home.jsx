@@ -4,6 +4,10 @@ import worldgreen from '../assets/worldgreen.png';
 import reusablenergy from '../assets/reusablenergy.png';
 import saveplants from '../assets/saveplants.png';
 import logo from '../assets/logo.png';
+import home2 from '../assets/home2.png';
+import tecchenvironment from '../assets/tecchenvironment.jpg';
+import waterpolution from '../assets/waterpolution.png';
+import rhino from '../assets/rhino.png';
 
 import '../App.css'
 import './Home.css'
@@ -62,19 +66,15 @@ const Home = () => {
           <span className="dot"></span>
         </div>
       </div>
-      <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
       <h1 style={{
 
-        fontFamily: 'black',
-          fontSize: '36px',
-          fontWeight: 'bold',
-  
-  marginTop: '200px'
-  
-
-
+          fontFamily: 'black',
+          fontSize: '3em',
+          fontWeight: 'bold', 
+          marginTop: '200px'
 }}>
-  Welcome to Mazingira<br></br> Empowering Environmental Champions! 🌿
+          Welcome to Mazingira Empowering Environmental Champions! 🌿
 </h1>
 
 
@@ -82,9 +82,8 @@ const Home = () => {
 
 <h2 style={{
   fontSize: '284px',
-  marginBottom: '70px' ,
-
-
+  marginBottom: '100px' ,
+  textAlign: 'justify',
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>
@@ -96,20 +95,19 @@ const Home = () => {
 </br>
 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', justifyContent: 'space-evenly', alignItems: 'center', textAlign: 'center' }}>
 <div style={{ position: 'relative' }}>
-  <div style={{ position: 'absolute', top: '-65px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto', fontSize: '20px' }}>
+  <div style={{ position: 'absolute', top: '-65px', left: '0', right: '0', backgroundColor: '#73B925', padding: '10px', width: '319.297px', margin: '0 auto', fontSize: '20px',  }}>
       Partners
     </div>
     <img
       className="rectangle-54"
-      alt="Rectangle 54"
-      src="src/assets/WED_-_Main.png"
+      src={rhino}
       style={{
-        marginTop:'-15px',
+        marginTop:'-5px',
         width: '85%',
-        height: '239.476px', 
+        height: '30vh', 
       }}
     />
-       <p style={{ textAlign: 'center',width:'319.297px',margin :'o auto',marginLeft:'10%', fontSize: '20px'}}>
+       <p style={{ textAlign: 'center',width:'319.297px',margin :'o auto',marginLeft:'10%', fontSize: '20px', }}>
         Engage with environmental organizations and businesses for a greener future. 
       🌍🌱🌻
       </p>
@@ -120,12 +118,12 @@ const Home = () => {
     </div>
     <img
       className="rectangle-51"
-      alt="Rectangle 51"
-      src="src/assets/mqdefault.jpg"
+      alt="waterpolution"
+      src={waterpolution}
       style={{
-        marginTop:'-15px',
+        marginTop:'-5px',
         width: '85%',
-        height: '239.476px', 
+        height: '30vh',  
       }}
     />
     <p style={{ textAlign: 'justify', width: '319.297px', margin: '0 auto', marginLeft: '10%', fontSize: '20px' }}>
@@ -144,12 +142,11 @@ const Home = () => {
     
     <img
       className="rectangle-60"
-      alt="Rectangle 60"
-      src="src/assets/zero-carbon-emmision1.jpg"
+      src={tecchenvironment}
       style={{
-        marginTop:'-45px',
+        marginTop:'-35px',
         width: '85%',
-        height: '239.476px', 
+        height: '30vh', 
       }}
     />
      
@@ -191,10 +188,9 @@ const Home = () => {
 <br></br>
 <h2 style={{
   fontFamily: 'Arial, sans-serif', 
-  fontSize: '20px', 
+  fontSize: '2em', 
   fontWeight: 'normal', 
-  color: '#333',
-   
+  color: '#1c1c1c', 
   lineHeight: '1.5', 
   textAlign: 'center'
 }}>
@@ -211,12 +207,11 @@ const Home = () => {
 
 <div style={{ display: 'flex' }}>
   <img
-    className="hands-with-plants"
-    alt="Hands with plants"
-    src="src/assets/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo 1.png"
-    style={{
+      className="hands-with-plants"
+      alt="home2"
+      src={home2}    style={{
       width: '662px',
-      height: '349px',
+      height: '50vh',
       flexShrink: 0,
       marginLeft:'40px'
     }}  

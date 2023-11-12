@@ -68,14 +68,7 @@ const Home = () => {
         fontFamily: 'black',
           fontSize: '36px',
           fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
-  fontFamily: 'black',
-  fontSize: '36px',
-  fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
-  marginBottom: '200px' ,
+  
   marginTop: '200px'
   
 
@@ -91,12 +84,7 @@ const Home = () => {
   fontSize: '284px',
   marginBottom: '70px' ,
 
-  fontSize: '30px',
-  fontWeight: 'bold',
-  color: 'black',
-  textAlign: 'center',
-  
-  whiteSpace: 'nowrap', 
+
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>

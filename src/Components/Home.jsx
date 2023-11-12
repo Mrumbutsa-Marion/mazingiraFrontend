@@ -67,15 +67,8 @@ const Home = () => {
 
         fontFamily: 'black',
           fontSize: '36px',
-  //         fontWeight: 'bold',
-  // color: 'black',
-  // textAlign: 'center',
-  // fontFamily: 'black',
-  // fontSize: '36px',
-  // fontWeight: 'bold',
-  // color: 'black',
-  // textAlign: 'center',
-  // marginBottom: '200px' ,
+          fontWeight: 'bold',
+  
   marginTop: '200px'
   
 
@@ -88,16 +81,10 @@ const Home = () => {
 </div>
 
 <h2 style={{
-  // fontSize: '284px',
-  // marginBottom: '70px' ,
+  fontSize: '284px',
+  marginBottom: '70px' ,
 
-  // fontSize: '30px',
-  // fontWeight: 'bold',
-  // color: 'black',
-  // textAlign: 'center',
-  
-  // whiteSpace: 'nowrap', 
-  marginBottom: '90px' ,
+
   overflow: 'hidden', 
   textOverflow: 'ellipsis' 
 }}>
